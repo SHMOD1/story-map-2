@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "raster",
-      "url": "cog://https://mod-foundation.github.io/download_center/data/geotiff/DEM_cog.tif#color:[\"#72b8ee\",\"#6ec8ea\",\"#64ddd0\",\"#57dca6\",\"#55dd84\",\"#6fe352\",\"#b0ee55\",\"#f7f05a\",\"#f6c35a\",\"#f0844f\",\"#ec5e5e\",\"#ee6b6b\",\"#f4a6a6\"],805,954,c",
+      "url": "cog://./layers/bangalore-dem-cog.tif#color:[\"#72b8ee\",\"#6ec8ea\",\"#64ddd0\",\"#57dca6\",\"#55dd84\",\"#6fe352\",\"#b0ee55\",\"#f7f05a\",\"#f6c35a\",\"#f0844f\",\"#ec5e5e\",\"#ee6b6b\",\"#f4a6a6\"],720,870,c",
       "tileSize": 256
     },
     "source-lakes-existing": {
@@ -110,12 +110,11 @@ const mapConfig = {
   "userLayersMeta": [
     {
       "id": "layer-dem-cog",
-      "name": "DEM_cog",
+      "name": "bangalore dem clipped",
       "style": null,
       "category": "raster",
-      "filename": "DEM_cog.tif",
-      "sourceId": "source-dem-cog",
-      "remoteUrl": "https://mod-foundation.github.io/download_center/data/geotiff/DEM_cog.tif"
+      "filename": "bangalore-dem-cog.tif",
+      "sourceId": "source-dem-cog"
     },
     {
       "id": "layer-lakes-existing",
