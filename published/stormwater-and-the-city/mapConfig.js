@@ -49,6 +49,10 @@ const mapConfig = {
     "source-labels": {
       "type": "geojson",
       "data": "./layers/labels.geojson"
+    },
+    "source-boundary": {
+      "type": "geojson",
+      "data": "https://mod-foundation.github.io/download_center/data/json/gba_boundary.geojson"
     }
   },
   "layers": [
@@ -76,6 +80,15 @@ const mapConfig = {
       "paint": {
         "line-color": "#7cc0ff",
         "line-width": 1
+      }
+    },
+    {
+      "id": "layer-boundary-outline",
+      "type": "line",
+      "source": "source-boundary",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 2.5
       }
     },
     {
@@ -137,6 +150,20 @@ const mapConfig = {
       "category": "labels",
       "filename": "labels.geojson",
       "sourceId": "source-labels"
+    },
+    {
+      "id": "layer-boundary",
+      "name": "gba_boundary",
+      "style": {
+        "fillColor": "#ffffff",
+        "fillOpacity": 0,
+        "strokeColor": "#ffffff",
+        "strokeWidth": 2.5
+      },
+      "category": "polygon",
+      "filename": "gba_boundary.geojson",
+      "sourceId": "source-boundary",
+      "remoteUrl": "https://mod-foundation.github.io/download_center/data/json/gba_boundary.geojson"
     }
   ]
 };

@@ -58,6 +58,12 @@ const storyConfig = {
         "layer-dem-cog": {
           "opacity": 0.6,
           "visible": true
+        },
+        "layer-boundary-outline": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2.5
         }
       }
     },
