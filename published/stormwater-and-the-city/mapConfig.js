@@ -52,7 +52,7 @@ const mapConfig = {
     },
     "source-boundary": {
       "type": "geojson",
-      "data": "https://mod-foundation.github.io/download_center/data/json/gba_boundary.geojson"
+      "data": "./layers/bbmp-boundary.geojson"
     },
     "source-roads": {
       "type": "geojson",
@@ -239,7 +239,7 @@ const mapConfig = {
     },
     {
       "id": "layer-boundary",
-      "name": "gba_boundary",
+      "name": "BBMP boundary",
       "style": {
         "fillColor": "#ffffff",
         "fillOpacity": 0,
@@ -247,9 +247,8 @@ const mapConfig = {
         "strokeWidth": 2.5
       },
       "category": "polygon",
-      "filename": "gba_boundary.geojson",
-      "sourceId": "source-boundary",
-      "remoteUrl": "https://mod-foundation.github.io/download_center/data/json/gba_boundary.geojson"
+      "filename": "bbmp-boundary.geojson",
+      "sourceId": "source-boundary"
     },
     {
       "id": "layer-roads",
