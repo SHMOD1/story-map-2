@@ -1,0 +1,74 @@
+const storyConfig = {
+  "chapters": [
+    {
+      "year": null,
+      "image": null,
+      "pitch": 0,
+      "quote": null,
+      "legend": null,
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "center",
+      "buttonUrl": null,
+      "subtitle2": "Hills & Valleys · Inhabiting the Flow",
+      "buttonText": null,
+      "population": null,
+      "description": null,
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "0",
+      "chapterType": "title",
+      "title": "STORMWATER AND THE CITY",
+      "center": [
+        77.605,
+        12.975
+      ],
+      "zoom": 11.2,
+      "layers": {}
+    },
+    {
+      "year": null,
+      "image": null,
+      "pitch": 0,
+      "quote": null,
+      "legend": null,
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "left",
+      "buttonUrl": null,
+      "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "[Placeholder] Bengaluru grew around a chain of man-made lakes — Hebbal, Sankey, Ulsoor, Kempambudhi, Bellandur and Madiwala among them — each catching the rain that runs off the city's hills and valleys.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "1",
+      "chapterType": "map",
+      "title": "The Lakes of Bengaluru",
+      "center": [
+        77.605,
+        12.975
+      ],
+      "zoom": 11.4,
+      "layers": {
+        "layer-lakes-existing-fill": {
+          "color": "#4a9fe8",
+          "opacity": 0.9,
+          "visible": true
+        },
+        "layer-lakes-existing-outline": {
+          "color": "#7cc0ff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 1
+        }
+      }
+    }
+  ]
+};
+
+if (typeof module !== 'undefined' && module.exports) { module.exports = storyConfig; }
