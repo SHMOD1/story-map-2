@@ -70,6 +70,12 @@ const storyConfig = {
           "opacity": 0.9,
           "visible": true,
           "strokeWidth": 1.5
+        },
+        "layer-roads-primary": {
+          "color": "#ffffff",
+          "opacity": 0.7,
+          "visible": true,
+          "strokeWidth": 0.8
         }
       }
     },
