@@ -61,6 +61,10 @@ const mapConfig = {
     "source-roads-primary": {
       "type": "geojson",
       "data": "./layers/roads-primary.geojson"
+    },
+    "source-roads-trunk": {
+      "type": "geojson",
+      "data": "./layers/roads-trunk.geojson"
     }
   },
   "layers": [
@@ -116,6 +120,52 @@ const mapConfig = {
         "line-color": "#ffffff",
         "line-width": 1.5,
         "line-opacity": 0.9
+      }
+    },
+    {
+      "id": "layer-roads-trunk",
+      "type": "line",
+      "source": "source-roads-trunk",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 2.5,
+        "line-opacity": 1
+      }
+    },
+    {
+      "id": "layer-roads-trunk-names",
+      "type": "symbol",
+      "source": "source-roads-trunk",
+      "filter": [
+        "!=",
+        [
+          "get",
+          "name"
+        ],
+        ""
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "text-field": [
+          "get",
+          "name"
+        ],
+        "text-font": [
+          "Open Sans Bold"
+        ],
+        "text-size": 10,
+        "text-transform": "uppercase",
+        "text-letter-spacing": 0.05,
+        "symbol-spacing": 400
+      },
+      "paint": {
+        "text-color": "#ffffff",
+        "text-halo-color": "#333333",
+        "text-halo-width": 1.2
       }
     },
     {
@@ -222,6 +272,17 @@ const mapConfig = {
       "category": "line",
       "filename": "roads-primary.geojson",
       "sourceId": "source-roads-primary"
+    },
+    {
+      "id": "layer-roads-trunk",
+      "name": "roads trunk",
+      "style": {
+        "strokeColor": "#ffffff",
+        "strokeWidth": 2.5
+      },
+      "category": "line",
+      "filename": "roads-trunk.geojson",
+      "sourceId": "source-roads-trunk"
     }
   ]
 };

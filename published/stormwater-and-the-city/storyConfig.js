@@ -76,6 +76,16 @@ const storyConfig = {
           "opacity": 0.7,
           "visible": true,
           "strokeWidth": 0.8
+        },
+        "layer-roads-trunk": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2.5
+        },
+        "layer-roads-trunk-names": {
+          "opacity": 1,
+          "visible": true
         }
       }
     },
