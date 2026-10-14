@@ -33,6 +33,39 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
+      "legend": "./images/elevation-legend.svg",
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "left",
+      "buttonUrl": null,
+      "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "[Placeholder] Bengaluru sits on a ridge. The old city — Majestic, Fort, Palace, Jayanagar — lies on high ground between 900 and 940 m, while the land falls away to the valleys at Bellandur, Varthur and Kengeri, where the city's rainwater collects.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "1",
+      "chapterType": "map",
+      "title": "Hills & Valleys",
+      "center": [
+        77.6,
+        12.98
+      ],
+      "zoom": 11,
+      "layers": {
+        "layer-dem-cog": {
+          "opacity": 0.6,
+          "visible": true
+        }
+      }
+    },
+    {
+      "year": null,
+      "image": null,
+      "pitch": 0,
+      "quote": null,
       "legend": null,
       "bearing": 0,
       "duration": 2000,
@@ -46,7 +79,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "1",
+      "id": "2",
       "chapterType": "map",
       "title": "The Lakes of Bengaluru",
       "center": [

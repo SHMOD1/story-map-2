@@ -1,8 +1,285 @@
-{"type":"FeatureCollection","features":[
-{"type":"Feature","properties":{"name":"Hebbal"},"geometry":{"type":"Point","coordinates":[77.5905,13.0455]}},
-{"type":"Feature","properties":{"name":"Sankey"},"geometry":{"type":"Point","coordinates":[77.5745,13.0105]}},
-{"type":"Feature","properties":{"name":"Ulsoor"},"geometry":{"type":"Point","coordinates":[77.6205,12.9835]}},
-{"type":"Feature","properties":{"name":"Kempambudhi"},"geometry":{"type":"Point","coordinates":[77.5715,12.9475]}},
-{"type":"Feature","properties":{"name":"Bellandur"},"geometry":{"type":"Point","coordinates":[77.6680,12.9300]}},
-{"type":"Feature","properties":{"name":"Madiwala"},"geometry":{"type":"Point","coordinates":[77.6190,12.9070]}}
-]}
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Majestic (KBS) 903 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5713,
+     12.9772
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Palace 930 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5921,
+     12.9987
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Yeshwantpur 920 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.554,
+     13.028
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Fort 903 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.576,
+     12.9628
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Jayanagar 925 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5838,
+     12.925
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "JS Dinne 940 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.596,
+     12.879
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Madiwala 885 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.617,
+     12.922
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bellanduru L. 870 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.668,
+     12.93
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Varthuru L. 860 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.728,
+     12.948
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Vijayanagar 880 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.537,
+     12.971
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kengeri 790 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.483,
+     12.912
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ulsoor 890 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.6205,
+     12.9835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Whitefield 867 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.75,
+     12.9698
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Yelahanka 910 m",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5963,
+     13.1007
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Hebbal",
+    "chapter": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5905,
+     13.0455
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sankey",
+    "chapter": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5745,
+     13.0105
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ulsoor",
+    "chapter": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.6205,
+     12.9835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kempambudhi",
+    "chapter": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5715,
+     12.9475
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bellandur",
+    "chapter": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.668,
+     12.93
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Madiwala",
+    "chapter": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.619,
+     12.907
+    ]
+   }
+  }
+ ]
+}
