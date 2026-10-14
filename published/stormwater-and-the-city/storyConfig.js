@@ -64,6 +64,12 @@ const storyConfig = {
           "opacity": 1,
           "visible": true,
           "strokeWidth": 2.5
+        },
+        "layer-roads": {
+          "color": "#ffffff",
+          "opacity": 0.9,
+          "visible": true,
+          "strokeWidth": 1.5
         }
       }
     },

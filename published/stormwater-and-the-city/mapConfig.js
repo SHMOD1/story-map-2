@@ -53,6 +53,10 @@ const mapConfig = {
     "source-boundary": {
       "type": "geojson",
       "data": "https://mod-foundation.github.io/download_center/data/json/gba_boundary.geojson"
+    },
+    "source-roads": {
+      "type": "geojson",
+      "data": "./layers/roads.geojson"
     }
   },
   "layers": [
@@ -80,6 +84,20 @@ const mapConfig = {
       "paint": {
         "line-color": "#7cc0ff",
         "line-width": 1
+      }
+    },
+    {
+      "id": "layer-roads",
+      "type": "line",
+      "source": "source-roads",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1.5,
+        "line-opacity": 0.9
       }
     },
     {
@@ -164,6 +182,17 @@ const mapConfig = {
       "filename": "gba_boundary.geojson",
       "sourceId": "source-boundary",
       "remoteUrl": "https://mod-foundation.github.io/download_center/data/json/gba_boundary.geojson"
+    },
+    {
+      "id": "layer-roads",
+      "name": "roads",
+      "style": {
+        "strokeColor": "#ffffff",
+        "strokeWidth": 1.5
+      },
+      "category": "line",
+      "filename": "roads.geojson",
+      "sourceId": "source-roads"
     }
   ]
 };
