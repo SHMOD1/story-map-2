@@ -60,10 +60,10 @@ const storyConfig = {
           "visible": true
         },
         "layer-boundary-outline": {
-          "color": "#ffffff",
+          "color": "#ffd400",
           "opacity": 1,
           "visible": true,
-          "strokeWidth": 2.5
+          "strokeWidth": 3
         },
         "layer-roads": {
           "color": "#ffffff",
@@ -150,10 +150,10 @@ const storyConfig = {
           "visible": true
         },
         "layer-boundary-outline": {
-          "color": "#ffffff",
+          "color": "#ffd400",
           "opacity": 1,
           "visible": true,
-          "strokeWidth": 2.5
+          "strokeWidth": 3
         }
       }
     }

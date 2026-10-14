@@ -173,8 +173,12 @@ const mapConfig = {
       "type": "line",
       "source": "source-boundary",
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 2.5
+        "line-color": "#ffd400",
+        "line-width": 3,
+        "line-dasharray": [
+          3,
+          1.5
+        ]
       }
     },
     {
@@ -243,8 +247,8 @@ const mapConfig = {
       "style": {
         "fillColor": "#ffffff",
         "fillOpacity": 0,
-        "strokeColor": "#ffffff",
-        "strokeWidth": 2.5
+        "strokeColor": "#ffd400",
+        "strokeWidth": 3
       },
       "category": "polygon",
       "filename": "bbmp-boundary.geojson",
