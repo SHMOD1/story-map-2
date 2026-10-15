@@ -77,6 +77,11 @@ const mapConfig = {
     "source-streams": {
       "type": "geojson",
       "data": "./layers/streams.geojson"
+    },
+    "source-dem-red": {
+      "type": "raster",
+      "url": "cog://./layers/bangalore-dem-cog.tif#color:[\"#2fa6c8\",\"#4fd08f\",\"#b5df52\",\"#e9d84a\",\"#f0a33f\",\"#e8553f\",\"#d8343a\",\"#c0222c\"],700,830,c",
+      "tileSize": 256
     }
   },
   "layers": [
@@ -86,6 +91,14 @@ const mapConfig = {
       "source": "source-dem-cog",
       "paint": {
         "raster-opacity": 0.6
+      }
+    },
+    {
+      "id": "layer-dem-red",
+      "type": "raster",
+      "source": "source-dem-red",
+      "paint": {
+        "raster-opacity": 0.75
       }
     },
     {

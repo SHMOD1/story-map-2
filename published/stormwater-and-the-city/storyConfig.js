@@ -194,8 +194,8 @@ const storyConfig = {
       ],
       "zoom": 11,
       "layers": {
-        "layer-dem-cog": {
-          "opacity": 0.6,
+        "layer-dem-red": {
+          "opacity": 0.75,
           "visible": true
         },
         "layer-boundary-outline": {
@@ -271,8 +271,8 @@ const storyConfig = {
       ],
       "zoom": 11,
       "layers": {
-        "layer-dem-cog": {
-          "opacity": 0.7,
+        "layer-dem-red": {
+          "opacity": 0.75,
           "visible": true
         },
         "layer-boundary-outline": {
