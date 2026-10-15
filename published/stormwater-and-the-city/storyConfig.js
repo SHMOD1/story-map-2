@@ -33,6 +33,46 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
+      "legend": null,
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "left",
+      "buttonUrl": null,
+      "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "[Placeholder] Text for the lakes chapter.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "1",
+      "chapterType": "map",
+      "title": "Lakes",
+      "center": [
+        77.6,
+        12.98
+      ],
+      "zoom": 11,
+      "layers": {
+        "layer-lakes-fill": {
+          "color": "#4a9fe8",
+          "opacity": 0.9,
+          "visible": true
+        },
+        "layer-lakes-outline": {
+          "color": "#7cc0ff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 1
+        }
+      }
+    },
+    {
+      "year": null,
+      "image": null,
+      "pitch": 0,
+      "quote": null,
       "legend": "./images/elevation-legend.svg",
       "bearing": 0,
       "duration": 2000,
@@ -46,7 +86,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "1",
+      "id": "2",
       "chapterType": "map",
       "title": "Hills & Valleys",
       "center": [
@@ -107,7 +147,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "2",
+      "id": "3",
       "chapterType": "map",
       "title": "The Lakes of Bengaluru",
       "center": [

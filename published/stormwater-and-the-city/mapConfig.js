@@ -65,6 +65,10 @@ const mapConfig = {
     "source-roads-trunk": {
       "type": "geojson",
       "data": "./layers/roads-trunk.geojson"
+    },
+    "source-lakes": {
+      "type": "geojson",
+      "data": "./layers/lakes.geojson"
     }
   },
   "layers": [
@@ -74,6 +78,24 @@ const mapConfig = {
       "source": "source-dem-cog",
       "paint": {
         "raster-opacity": 0.6
+      }
+    },
+    {
+      "id": "layer-lakes-fill",
+      "type": "fill",
+      "source": "source-lakes",
+      "paint": {
+        "fill-color": "#4a9fe8",
+        "fill-opacity": 0.9
+      }
+    },
+    {
+      "id": "layer-lakes-outline",
+      "type": "line",
+      "source": "source-lakes",
+      "paint": {
+        "line-color": "#7cc0ff",
+        "line-width": 1
       }
     },
     {
@@ -286,6 +308,19 @@ const mapConfig = {
       "category": "line",
       "filename": "roads-trunk.geojson",
       "sourceId": "source-roads-trunk"
+    },
+    {
+      "id": "layer-lakes",
+      "name": "Lakes",
+      "style": {
+        "fillColor": "#4a9fe8",
+        "fillOpacity": 0.9,
+        "strokeColor": "#7cc0ff",
+        "strokeWidth": 1
+      },
+      "category": "polygon",
+      "filename": "lakes.geojson",
+      "sourceId": "source-lakes"
     }
   ]
 };
