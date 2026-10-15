@@ -409,12 +409,12 @@ const storyConfig = {
         },
         "layer-lakes-fill": {
           "color": "#2f8cff",
-          "opacity": 1,
+          "opacity": 0.45,
           "visible": true
         },
         "layer-lakes-outline": {
           "color": "#ffffff",
-          "opacity": 1,
+          "opacity": 0.5,
           "visible": true,
           "strokeWidth": 1.5
         }
