@@ -395,6 +395,11 @@ const storyConfig = {
           "opacity": 1,
           "visible": true,
           "strokeWidth": 2
+        },
+        "layer-streams-fine": {
+          "color": "#7cc4f5",
+          "opacity": 0.85,
+          "visible": true
         }
       }
     }
