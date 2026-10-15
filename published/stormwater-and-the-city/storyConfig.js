@@ -379,7 +379,7 @@ const storyConfig = {
         },
         "layer-green-fill": {
           "color": "#3fae49",
-          "opacity": 0.7,
+          "opacity": 0.35,
           "visible": true
         },
         "layer-streams": {
