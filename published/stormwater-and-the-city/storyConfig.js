@@ -361,6 +361,34 @@ const storyConfig = {
     },
     {
       "year": null,
+      "image": "./images/cauvery-basin.webp?v=1792058177",
+      "pitch": 0,
+      "quote": null,
+      "legend": null,
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "left",
+      "buttonUrl": null,
+      "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "[Placeholder] Text for the Cauvery basin image.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "7",
+      "chapterType": "image",
+      "title": "The Cauvery Basin",
+      "center": [
+        77.6,
+        12.98
+      ],
+      "zoom": 11,
+      "layers": {}
+    },
+    {
+      "year": null,
       "image": null,
       "pitch": 0,
       "quote": null,
@@ -377,7 +405,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "7",
+      "id": "8",
       "chapterType": "title",
       "title": "INHABITING THE FLOW",
       "center": [
@@ -405,7 +433,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "8",
+      "id": "9",
       "chapterType": "map",
       "title": "Where the Water Flows",
       "center": [
@@ -479,7 +507,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "9",
+      "id": "10",
       "chapterType": "map",
       "title": "Primary Drains",
       "center": [
