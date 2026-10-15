@@ -98,24 +98,6 @@ const mapConfig = {
       }
     },
     {
-      "id": "layer-lakes-fill",
-      "type": "fill",
-      "source": "source-lakes",
-      "paint": {
-        "fill-color": "#4a9fe8",
-        "fill-opacity": 0.9
-      }
-    },
-    {
-      "id": "layer-lakes-outline",
-      "type": "line",
-      "source": "source-lakes",
-      "paint": {
-        "line-color": "#7cc0ff",
-        "line-width": 1
-      }
-    },
-    {
       "id": "layer-streams",
       "type": "line",
       "source": "source-streams",
@@ -135,38 +117,30 @@ const mapConfig = {
             "order"
           ],
           5,
-          1,
+          3,
+          6,
+          5,
           7,
-          2.5
+          8
         ]
       }
     },
     {
-      "id": "layer-streams-arrows",
-      "type": "symbol",
-      "source": "source-streams",
-      "filter": [
-        ">=",
-        [
-          "get",
-          "order"
-        ],
-        6
-      ],
-      "layout": {
-        "symbol-placement": "line",
-        "symbol-spacing": 180,
-        "text-field": ">",
-        "text-font": [
-          "Open Sans Bold"
-        ],
-        "text-size": 16,
-        "text-keep-upright": false,
-        "text-rotation-alignment": "map",
-        "text-allow-overlap": true
-      },
+      "id": "layer-lakes-fill",
+      "type": "fill",
+      "source": "source-lakes",
       "paint": {
-        "text-color": "#4ff0f0"
+        "fill-color": "#2f8cff",
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "layer-lakes-outline",
+      "type": "line",
+      "source": "source-lakes",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1.5
       }
     },
     {
@@ -242,6 +216,42 @@ const mapConfig = {
         "text-halo-color": "#333333",
         "text-halo-width": 1.2
       }
+    },
+    {
+      "id": "layer-streams-arrows",
+      "type": "symbol",
+      "source": "source-streams",
+      "filter": [
+        ">=",
+        [
+          "get",
+          "order"
+        ],
+        6
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "symbol-spacing": 120,
+        "icon-image": "flow-arrow",
+        "icon-size": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "get",
+            "order"
+          ],
+          6,
+          0.9,
+          7,
+          1.2
+        ],
+        "icon-rotation-alignment": "map",
+        "icon-allow-overlap": true,
+        "icon-ignore-placement": true
+      },
+      "paint": {}
     },
     {
       "id": "layer-boundary-outline",
@@ -391,10 +401,10 @@ const mapConfig = {
       "id": "layer-lakes",
       "name": "Lakes",
       "style": {
-        "fillColor": "#4a9fe8",
-        "fillOpacity": 0.9,
-        "strokeColor": "#7cc0ff",
-        "strokeWidth": 1
+        "fillColor": "#2f8cff",
+        "fillOpacity": 1,
+        "strokeColor": "#ffffff",
+        "strokeWidth": 1.5
       },
       "category": "polygon",
       "filename": "lakes.geojson",

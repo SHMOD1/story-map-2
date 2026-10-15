@@ -56,15 +56,15 @@ const storyConfig = {
       "zoom": 11,
       "layers": {
         "layer-lakes-fill": {
-          "color": "#4a9fe8",
-          "opacity": 0.9,
+          "color": "#2f8cff",
+          "opacity": 1,
           "visible": true
         },
         "layer-lakes-outline": {
-          "color": "#7cc0ff",
+          "color": "#ffffff",
           "opacity": 1,
           "visible": true,
-          "strokeWidth": 1
+          "strokeWidth": 1.5
         },
         "layer-boundary-outline": {
           "color": "#ffd400",
@@ -272,7 +272,7 @@ const storyConfig = {
       "zoom": 11,
       "layers": {
         "layer-dem-cog": {
-          "opacity": 0.6,
+          "opacity": 0.7,
           "visible": true
         },
         "layer-boundary-outline": {
@@ -309,13 +309,23 @@ const storyConfig = {
           "visible": true
         },
         "layer-streams": {
-          "color": "#4ff0f0",
           "opacity": 1,
           "visible": true
         },
         "layer-streams-arrows": {
           "opacity": 1,
           "visible": true
+        },
+        "layer-lakes-fill": {
+          "color": "#2f8cff",
+          "opacity": 1,
+          "visible": true
+        },
+        "layer-lakes-outline": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 1.5
         }
       }
     }

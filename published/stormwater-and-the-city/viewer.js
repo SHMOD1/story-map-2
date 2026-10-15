@@ -95,6 +95,17 @@ function initMap() {
   map.getCanvas().addEventListener('mouseleave', handleMapHoldEnd);
 
   map.on('styleimagemissing', (e) => {
+    if (e.id === 'flow-arrow' && !map.hasImage('flow-arrow')) {
+      // Chevron pointing along the line (downstream), drawn once on demand
+      const size = 48, c = document.createElement('canvas');
+      c.width = c.height = size;
+      const ctx = c.getContext('2d');
+      ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+      const chevron = () => { ctx.beginPath(); ctx.moveTo(14, 8); ctx.lineTo(36, 24); ctx.lineTo(14, 40); ctx.stroke(); };
+      ctx.strokeStyle = '#0b3d4a'; ctx.lineWidth = 12; chevron();
+      ctx.strokeStyle = '#4ff0f0'; ctx.lineWidth = 7; chevron();
+      map.addImage('flow-arrow', ctx.getImageData(0, 0, size, size), { pixelRatio: 2 });
+    }
     if (e.id === 'viewpoint-icon' && _viewpointImageData && !map.hasImage('viewpoint-icon')) {
       map.addImage('viewpoint-icon', _viewpointImageData);
     }
