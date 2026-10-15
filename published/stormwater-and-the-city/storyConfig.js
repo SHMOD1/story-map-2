@@ -130,23 +130,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792060233",
+          "src": "./images/bellandur.jpg?v=1792060285",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792060233",
+          "src": "./images/ulsoor.webp?v=1792060285",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792060233",
+          "src": "./images/kempambudhi.webp?v=1792060285",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792060233",
+          "src": "./images/sankey.webp?v=1792060285",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792060233",
+          "src": "./images/hebbal.webp?v=1792060285",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +156,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060233",
+      "legend": "./images/elevation-legend.svg?v=1792060285",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -218,20 +218,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792060233"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792060285"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792060233",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792060285",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792060233",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792060285",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060233",
+      "legend": "./images/elevation-legend.svg?v=1792060285",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -305,7 +305,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792060233",
+      "image": "./images/deccan-plateau-dem.webp?v=1792060285",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -333,7 +333,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792060233",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792060285",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -361,7 +361,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792060233",
+      "image": "./images/cauvery-basin.webp?v=1792060285",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -389,7 +389,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792060233",
+      "image": "./images/three-basins.webp?v=1792060285",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -445,10 +445,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/undulating-terrain.webp?v=1792060233",
+      "image": "./images/undulating-terrain.webp?v=1792060285",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060233",
+      "legend": "./images/elevation-legend.svg?v=1792060285",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -519,10 +519,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/high-low-grounds-tanks.webp?v=1792060233",
+      "image": "./images/water-collection.webp?v=1792060285",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060233",
+      "legend": "./images/elevation-legend.svg?v=1792060285",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -531,13 +531,13 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "[Placeholder] Text for the primary drains chapter.",
+      "description": "Constructed by various dynasties including the Gangas, the Cholas, and the Hoysalas over the past 2000 years to help support the growing population for drinking water and crop irrigation.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
       "id": "11",
       "chapterType": "map",
-      "title": "Primary Drains",
+      "title": "Water Collection",
       "center": [
         77.6,
         12.98
