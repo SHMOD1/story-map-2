@@ -445,7 +445,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": null,
+      "image": "./images/high-low-grounds.webp?v=1792058177",
       "pitch": 0,
       "quote": null,
       "legend": "./images/elevation-legend.svg?v=1792058177",
