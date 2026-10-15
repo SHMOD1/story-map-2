@@ -400,6 +400,12 @@ const storyConfig = {
           "color": "#7cc4f5",
           "opacity": 0.85,
           "visible": true
+        },
+        "layer-secondary-drains": {
+          "color": "#a9dcff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 1
         }
       }
     }
