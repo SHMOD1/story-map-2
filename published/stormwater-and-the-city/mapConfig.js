@@ -157,6 +157,24 @@ const mapConfig = {
       }
     },
     {
+      "id": "layer-lakes-fill",
+      "type": "fill",
+      "source": "source-lakes",
+      "paint": {
+        "fill-color": "#2f8cff",
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "layer-lakes-outline",
+      "type": "line",
+      "source": "source-lakes",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1.5
+      }
+    },
+    {
       "id": "layer-streams-fine",
       "type": "line",
       "source": "source-streams-fine",
@@ -231,24 +249,6 @@ const mapConfig = {
           7,
           8
         ]
-      }
-    },
-    {
-      "id": "layer-lakes-fill",
-      "type": "fill",
-      "source": "source-lakes",
-      "paint": {
-        "fill-color": "#2f8cff",
-        "fill-opacity": 1
-      }
-    },
-    {
-      "id": "layer-lakes-outline",
-      "type": "line",
-      "source": "source-lakes",
-      "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1.5
       }
     },
     {
