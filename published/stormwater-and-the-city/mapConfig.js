@@ -69,6 +69,10 @@ const mapConfig = {
     "source-green": {
       "type": "geojson",
       "data": "./layers/green.geojson"
+    },
+    "source-ridge-places": {
+      "type": "geojson",
+      "data": "./layers/ridge-places.geojson"
     }
   },
   "layers": [
@@ -195,6 +199,45 @@ const mapConfig = {
       }
     },
     {
+      "id": "layer-ridge-places-dots",
+      "type": "circle",
+      "source": "source-ridge-places",
+      "paint": {
+        "circle-radius": 6,
+        "circle-color": "#ffffff",
+        "circle-stroke-color": "#333333",
+        "circle-stroke-width": 1
+      }
+    },
+    {
+      "id": "layer-ridge-places-names",
+      "type": "symbol",
+      "source": "source-ridge-places",
+      "layout": {
+        "text-field": [
+          "get",
+          "name"
+        ],
+        "text-font": [
+          "Open Sans Bold"
+        ],
+        "text-size": 13,
+        "text-transform": "uppercase",
+        "text-anchor": [
+          "get",
+          "anchor"
+        ],
+        "text-radial-offset": 0.9,
+        "text-justify": "auto",
+        "text-allow-overlap": true
+      },
+      "paint": {
+        "text-color": "#ffffff",
+        "text-halo-color": "rgba(0,0,0,0.5)",
+        "text-halo-width": 1
+      }
+    },
+    {
       "id": "layer-labels",
       "type": "symbol",
       "source": "source-labels",
@@ -309,6 +352,18 @@ const mapConfig = {
       "category": "polygon",
       "filename": "green.geojson",
       "sourceId": "source-green"
+    },
+    {
+      "id": "layer-ridge-places",
+      "name": "ridge places",
+      "style": {
+        "fillColor": "#ffffff",
+        "strokeColor": "#333333",
+        "radius": 6
+      },
+      "category": "point",
+      "filename": "ridge-places.geojson",
+      "sourceId": "source-ridge-places"
     }
   ]
 };
