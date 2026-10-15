@@ -147,7 +147,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": null,
+      "image": "./images/bengaluru-3d-dem-ridge.webp",
       "pitch": 0,
       "quote": null,
       "legend": "./images/elevation-legend.svg",
