@@ -646,6 +646,11 @@ const storyConfig = {
       ],
       "zoom": 11,
       "layers": {
+        "layer-dim": {
+          "color": "#3b2a33",
+          "opacity": 0.55,
+          "visible": true
+        },
         "layer-roads": {
           "color": "#ffffff",
           "opacity": 0.9,

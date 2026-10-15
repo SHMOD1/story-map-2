@@ -128,6 +128,40 @@ const mapConfig = {
     "source-secondary-drains": {
       "type": "geojson",
       "data": "./layers/secondary-drains.geojson?1792059535"
+    },
+    "source-dim": {
+      "type": "geojson",
+      "data": {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -180,
+                -85
+              ],
+              [
+                180,
+                -85
+              ],
+              [
+                180,
+                85
+              ],
+              [
+                -180,
+                85
+              ],
+              [
+                -180,
+                -85
+              ]
+            ]
+          ]
+        }
+      }
     }
   },
   "layers": [
@@ -145,6 +179,15 @@ const mapConfig = {
       "source": "source-dem-red",
       "paint": {
         "raster-opacity": 0.75
+      }
+    },
+    {
+      "id": "layer-dim",
+      "type": "fill",
+      "source": "source-dim",
+      "paint": {
+        "fill-color": "#3b2a33",
+        "fill-opacity": 0.55
       }
     },
     {
