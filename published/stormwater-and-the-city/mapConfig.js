@@ -65,6 +65,10 @@ const mapConfig = {
     "source-lakes": {
       "type": "geojson",
       "data": "./layers/lakes.geojson"
+    },
+    "source-green": {
+      "type": "geojson",
+      "data": "./layers/green.geojson"
     }
   },
   "layers": [
@@ -74,6 +78,15 @@ const mapConfig = {
       "source": "source-dem-cog",
       "paint": {
         "raster-opacity": 0.6
+      }
+    },
+    {
+      "id": "layer-green-fill",
+      "type": "fill",
+      "source": "source-green",
+      "paint": {
+        "fill-color": "#3fae49",
+        "fill-opacity": 0.7
       }
     },
     {
@@ -285,6 +298,17 @@ const mapConfig = {
       "category": "polygon",
       "filename": "lakes.geojson",
       "sourceId": "source-lakes"
+    },
+    {
+      "id": "layer-green",
+      "name": "BBMP green",
+      "style": {
+        "fillColor": "#3fae49",
+        "fillOpacity": 0.7
+      },
+      "category": "polygon",
+      "filename": "green.geojson",
+      "sourceId": "source-green"
     }
   ]
 };

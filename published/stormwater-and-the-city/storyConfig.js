@@ -71,6 +71,11 @@ const storyConfig = {
           "opacity": 1,
           "visible": true,
           "strokeWidth": 3
+        },
+        "layer-green-fill": {
+          "color": "#3fae49",
+          "opacity": 0.7,
+          "visible": true
         }
       }
     },
@@ -131,6 +136,11 @@ const storyConfig = {
         },
         "layer-roads-trunk-names": {
           "opacity": 1,
+          "visible": true
+        },
+        "layer-green-fill": {
+          "color": "#3fae49",
+          "opacity": 0.7,
           "visible": true
         }
       }
