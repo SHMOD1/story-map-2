@@ -38,9 +38,26 @@ const mapConfig = {
   },
   "sources": {
     "source-dem-cog": {
-      "type": "raster",
-      "url": "cog://./layers/bangalore-dem-cog.tif#color:[\"#72b8ee\",\"#6ec8ea\",\"#64ddd0\",\"#57dca6\",\"#55dd84\",\"#6fe352\",\"#b0ee55\",\"#f7f05a\",\"#f6c35a\",\"#f0844f\",\"#ec5e5e\",\"#ee6b6b\",\"#f4a6a6\"],720,870,c",
-      "tileSize": 256
+      "type": "image",
+      "url": "./images/dem-hills.png",
+      "coordinates": [
+        [
+          77.255859,
+          13.239945
+        ],
+        [
+          78.046875,
+          13.239945
+        ],
+        [
+          78.046875,
+          12.554564
+        ],
+        [
+          77.255859,
+          12.554564
+        ]
+      ]
     },
     "source-labels": {
       "type": "geojson",
@@ -79,9 +96,26 @@ const mapConfig = {
       "data": "./layers/streams.geojson"
     },
     "source-dem-red": {
-      "type": "raster",
-      "url": "cog://./layers/bangalore-dem-cog.tif#color:[\"#2fa6c8\",\"#4fd08f\",\"#b5df52\",\"#e9d84a\",\"#f0a33f\",\"#e8553f\",\"#d8343a\",\"#c0222c\"],700,830,c",
-      "tileSize": 256
+      "type": "image",
+      "url": "./images/dem-red.png",
+      "coordinates": [
+        [
+          77.255859,
+          13.239945
+        ],
+        [
+          78.046875,
+          13.239945
+        ],
+        [
+          78.046875,
+          12.554564
+        ],
+        [
+          77.255859,
+          12.554564
+        ]
+      ]
     }
   },
   "layers": [
@@ -353,7 +387,7 @@ const mapConfig = {
       "name": "bangalore dem clipped",
       "style": null,
       "category": "raster",
-      "filename": "bangalore-dem-cog.tif",
+      "filename": "dem-hills.png",
       "sourceId": "source-dem-cog"
     },
     {
