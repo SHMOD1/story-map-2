@@ -124,6 +124,10 @@ const mapConfig = {
     "source-streams-fine": {
       "type": "geojson",
       "data": "./layers/streams-fine.geojson"
+    },
+    "source-secondary-drains": {
+      "type": "geojson",
+      "data": "./layers/secondary-drains.geojson"
     }
   },
   "layers": [
@@ -173,6 +177,19 @@ const mapConfig = {
           0.7
         ],
         "line-opacity": 0.85
+      }
+    },
+    {
+      "id": "layer-secondary-drains",
+      "type": "line",
+      "source": "source-secondary-drains",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#a9dcff",
+        "line-width": 1
       }
     },
     {
@@ -554,6 +571,17 @@ const mapConfig = {
       "category": "line",
       "filename": "streams-fine.geojson",
       "sourceId": "source-streams-fine"
+    },
+    {
+      "id": "layer-secondary-drains",
+      "name": "secondary drains",
+      "style": {
+        "strokeColor": "#a9dcff",
+        "strokeWidth": 1
+      },
+      "category": "line",
+      "filename": "secondary-drains.geojson",
+      "sourceId": "source-secondary-drains"
     }
   ]
 };
