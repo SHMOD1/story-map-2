@@ -42,10 +42,6 @@ const mapConfig = {
       "url": "cog://./layers/bangalore-dem-cog.tif#color:[\"#72b8ee\",\"#6ec8ea\",\"#64ddd0\",\"#57dca6\",\"#55dd84\",\"#6fe352\",\"#b0ee55\",\"#f7f05a\",\"#f6c35a\",\"#f0844f\",\"#ec5e5e\",\"#ee6b6b\",\"#f4a6a6\"],720,870,c",
       "tileSize": 256
     },
-    "source-lakes-existing": {
-      "type": "geojson",
-      "data": "https://mod-foundation.github.io/download_center/data/json/lakes_existing.geojson"
-    },
     "source-labels": {
       "type": "geojson",
       "data": "./layers/labels.geojson"
@@ -93,24 +89,6 @@ const mapConfig = {
       "id": "layer-lakes-outline",
       "type": "line",
       "source": "source-lakes",
-      "paint": {
-        "line-color": "#7cc0ff",
-        "line-width": 1
-      }
-    },
-    {
-      "id": "layer-lakes-existing-fill",
-      "type": "fill",
-      "source": "source-lakes-existing",
-      "paint": {
-        "fill-color": "#4a9fe8",
-        "fill-opacity": 0.9
-      }
-    },
-    {
-      "id": "layer-lakes-existing-outline",
-      "type": "line",
-      "source": "source-lakes-existing",
       "paint": {
         "line-color": "#7cc0ff",
         "line-width": 1
@@ -240,20 +218,6 @@ const mapConfig = {
       "category": "raster",
       "filename": "bangalore-dem-cog.tif",
       "sourceId": "source-dem-cog"
-    },
-    {
-      "id": "layer-lakes-existing",
-      "name": "lakes_existing",
-      "style": {
-        "fillColor": "#4a9fe8",
-        "fillOpacity": 0.9,
-        "strokeColor": "#7cc0ff",
-        "strokeWidth": 1
-      },
-      "category": "polygon",
-      "filename": "lakes_existing.geojson",
-      "sourceId": "source-lakes-existing",
-      "remoteUrl": "https://mod-foundation.github.io/download_center/data/json/lakes_existing.geojson"
     },
     {
       "id": "layer-labels",
