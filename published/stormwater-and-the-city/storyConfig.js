@@ -317,6 +317,86 @@ const storyConfig = {
           "visible": true
         }
       }
+    },
+    {
+      "year": null,
+      "image": null,
+      "pitch": 0,
+      "quote": null,
+      "legend": "./images/elevation-legend.svg",
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "left",
+      "buttonUrl": null,
+      "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "[Placeholder] Text for the primary drains chapter.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "5",
+      "chapterType": "map",
+      "title": "Primary Drains",
+      "center": [
+        77.6,
+        12.98
+      ],
+      "zoom": 11,
+      "layers": {
+        "layer-dem-red": {
+          "opacity": 0.75,
+          "visible": true
+        },
+        "layer-boundary-outline": {
+          "color": "#ffd400",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 3
+        },
+        "layer-roads": {
+          "color": "#ffffff",
+          "opacity": 0.9,
+          "visible": true,
+          "strokeWidth": 1.5
+        },
+        "layer-roads-primary": {
+          "color": "#ffffff",
+          "opacity": 0.7,
+          "visible": true,
+          "strokeWidth": 0.8
+        },
+        "layer-roads-trunk": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2.5
+        },
+        "layer-roads-trunk-names": {
+          "opacity": 1,
+          "visible": true
+        },
+        "layer-green-fill": {
+          "color": "#3fae49",
+          "opacity": 0.7,
+          "visible": true
+        },
+        "layer-streams": {
+          "opacity": 1,
+          "visible": true
+        },
+        "layer-streams-arrows": {
+          "opacity": 1,
+          "visible": true
+        },
+        "layer-primary-drains": {
+          "color": "#7cc4f5",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2
+        }
+      }
     }
   ]
 };
