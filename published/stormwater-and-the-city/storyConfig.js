@@ -130,23 +130,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792060097",
+          "src": "./images/bellandur.jpg?v=1792060233",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792060097",
+          "src": "./images/ulsoor.webp?v=1792060233",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792060097",
+          "src": "./images/kempambudhi.webp?v=1792060233",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792060097",
+          "src": "./images/sankey.webp?v=1792060233",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792060097",
+          "src": "./images/hebbal.webp?v=1792060233",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +156,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060097",
+      "legend": "./images/elevation-legend.svg?v=1792060233",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -218,20 +218,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792060097"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792060233"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792060097",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792060233",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792060097",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792060233",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060097",
+      "legend": "./images/elevation-legend.svg?v=1792060233",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -305,7 +305,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792060097",
+      "image": "./images/deccan-plateau-dem.webp?v=1792060233",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -333,7 +333,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792060097",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792060233",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -361,7 +361,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792060097",
+      "image": "./images/cauvery-basin.webp?v=1792060233",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -389,7 +389,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792060097",
+      "image": "./images/three-basins.webp?v=1792060233",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -445,10 +445,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/high-low-grounds.webp?v=1792060097",
+      "image": "./images/undulating-terrain.webp?v=1792060233",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060097",
+      "legend": "./images/elevation-legend.svg?v=1792060233",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -457,13 +457,13 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "[Placeholder] Text for the streams chapter.",
+      "description": "Bangalore's undulating terrain, situated at an average elevation of 920 meters, consists of ridges and valleys that shape its drainage and road networks.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
       "id": "10",
       "chapterType": "map",
-      "title": "Where the Water Flows",
+      "title": "Undulating Terrain",
       "center": [
         77.6,
         12.98
@@ -519,10 +519,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/high-low-grounds-tanks.webp?v=1792060097",
+      "image": "./images/high-low-grounds-tanks.webp?v=1792060233",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060097",
+      "legend": "./images/elevation-legend.svg?v=1792060233",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
