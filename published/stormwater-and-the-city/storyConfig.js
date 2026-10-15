@@ -130,23 +130,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792061274",
+          "src": "./images/bellandur.jpg?v=1792061302",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792061274",
+          "src": "./images/ulsoor.webp?v=1792061302",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792061274",
+          "src": "./images/kempambudhi.webp?v=1792061302",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792061274",
+          "src": "./images/sankey.webp?v=1792061302",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792061274",
+          "src": "./images/hebbal.webp?v=1792061302",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +156,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061274",
+      "legend": "./images/elevation-legend.svg?v=1792061302",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -218,20 +218,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792061274"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792061302"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792061274",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792061302",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792061274",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061274",
+      "legend": "./images/elevation-legend.svg?v=1792061302",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -305,7 +305,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792061274",
+      "image": "./images/deccan-plateau-dem.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -333,7 +333,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792061274",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -361,7 +361,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792061274",
+      "image": "./images/cauvery-basin.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -389,7 +389,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792061274",
+      "image": "./images/three-basins.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -445,10 +445,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/undulating-terrain.webp?v=1792061274",
+      "image": "./images/undulating-terrain.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061274",
+      "legend": "./images/elevation-legend.svg?v=1792061302",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -519,10 +519,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/water-collection.webp?v=1792061274",
+      "image": "./images/water-collection.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061274",
+      "legend": "./images/elevation-legend.svg?v=1792061302",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -731,7 +731,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/bunds.webp?v=1792061274",
+      "image": "./images/bunds.webp?v=1792061302",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -847,7 +847,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/inscription-stones-photo.webp?v=1792061274",
+      "image": null,
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -859,9 +859,9 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "One of the oldest inscriptions, of AD 870 near Agara lake, reads: “The Irvvuliyur odeya, Irugamayya’s son Sirimayya, fixed sluices to the two tanks, had the eastern tank built, and obtained the bittuvatta of the three tanks.”\n\nAn important motivation for the construction of lakes was the granting of bittuvatta, agricultural grants of irrigated lands below the lake, to the founder. Lakes were not isolated entities, and along with them, grants frequently included dry lands above the lake, irrigated lands below the lake, and trees and wells in the vicinity.",
+      "description": "One of the oldest inscriptions, of AD 870 near Agara lake, reads: “The Irvvuliyur odeya, Irugamayya’s son Sirimayya, fixed sluices to the two tanks, had the eastern tank built, and obtained the bittuvatta of the three tanks.”\n\nAn important motivation for the construction of lakes was the granting of bittuvatta, agricultural grants of irrigated lands below the lake, to the founder. Lakes were not isolated entities, and along with them, grants frequently included dry lands above the lake, irrigated lands below the lake, and trees and wells in the vicinity.\n\nAD 1307, near Vibhutipura: “Having cleared the jungle in the tract of land adjoining Peru-Erumur, ? leveled the ground, built a village, constructed a tank by removing the sand, and named the village Vachchidevarpuram, granted to Vacchi-devar the village and the wet and dry lands adjoining it, with their four boundaries, as a madappuram, exempt from taxes, for as long as the moon and the sun exist.”",
       "quoteSource": null,
-      "imageCaption": "Photos: Harini Nagendra and Hita Unnikrishnan",
+      "imageCaption": null,
       "descriptionSource": null,
       "id": "14",
       "chapterType": "map",
@@ -971,7 +971,17 @@ const storyConfig = {
           "visible": true,
           "radius": 4.5
         }
-      }
+      },
+      "images": [
+        {
+          "src": "./images/inscription-stones-photo.webp?v=1792061302",
+          "caption": "Photos: Harini Nagendra and Hita Unnikrishnan"
+        },
+        {
+          "src": "./images/vibhutipura-inscription.webp?v=1792061302",
+          "caption": "Source: Inscription Stones of Bangalore; BL Rice, Epigraphia Carnatica, Vol IX"
+        }
+      ]
     }
   ]
 };
