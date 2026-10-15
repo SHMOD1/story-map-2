@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "image",
-      "url": "./images/dem-hills.png?v=1792059831",
+      "url": "./images/dem-hills.png?v=1792059915",
       "coordinates": [
         [
           77.255859,
@@ -61,43 +61,43 @@ const mapConfig = {
     },
     "source-labels": {
       "type": "geojson",
-      "data": "./layers/labels.geojson?v=1792059831"
+      "data": "./layers/labels.geojson?v=1792059915"
     },
     "source-boundary": {
       "type": "geojson",
-      "data": "./layers/bbmp-boundary.geojson?v=1792059831"
+      "data": "./layers/bbmp-boundary.geojson?v=1792059915"
     },
     "source-roads": {
       "type": "geojson",
-      "data": "./layers/roads.geojson?v=1792059831"
+      "data": "./layers/roads.geojson?v=1792059915"
     },
     "source-roads-primary": {
       "type": "geojson",
-      "data": "./layers/roads-primary.geojson?v=1792059831"
+      "data": "./layers/roads-primary.geojson?v=1792059915"
     },
     "source-roads-trunk": {
       "type": "geojson",
-      "data": "./layers/roads-trunk.geojson?v=1792059831"
+      "data": "./layers/roads-trunk.geojson?v=1792059915"
     },
     "source-lakes": {
       "type": "geojson",
-      "data": "./layers/lakes.geojson?v=1792059831"
+      "data": "./layers/lakes.geojson?v=1792059915"
     },
     "source-green": {
       "type": "geojson",
-      "data": "./layers/green.geojson?v=1792059831"
+      "data": "./layers/green.geojson?v=1792059915"
     },
     "source-ridge-places": {
       "type": "geojson",
-      "data": "./layers/ridge-places.geojson?v=1792059831"
+      "data": "./layers/ridge-places.geojson?v=1792059915"
     },
     "source-streams": {
       "type": "geojson",
-      "data": "./layers/streams.geojson?v=1792059831"
+      "data": "./layers/streams.geojson?v=1792059915"
     },
     "source-dem-red": {
       "type": "image",
-      "url": "./images/dem-red.png?v=1792059831",
+      "url": "./images/dem-red.png?v=1792059915",
       "coordinates": [
         [
           77.255859,
@@ -119,15 +119,15 @@ const mapConfig = {
     },
     "source-primary-drains": {
       "type": "geojson",
-      "data": "./layers/primary-drains.geojson?v=1792059831"
+      "data": "./layers/primary-drains.geojson?v=1792059915"
     },
     "source-streams-fine": {
       "type": "geojson",
-      "data": "./layers/streams-fine.geojson?v=1792059831"
+      "data": "./layers/streams-fine.geojson?v=1792059915"
     },
     "source-secondary-drains": {
       "type": "geojson",
-      "data": "./layers/secondary-drains.geojson?v=1792059831"
+      "data": "./layers/secondary-drains.geojson?v=1792059915"
     },
     "source-dim": {
       "type": "geojson",
@@ -162,6 +162,10 @@ const mapConfig = {
           ]
         }
       }
+    },
+    "source-sluice": {
+      "type": "geojson",
+      "data": "./layers/sluice-gates.geojson"
     }
   },
   "layers": [
@@ -334,6 +338,19 @@ const mapConfig = {
           7,
           8
         ]
+      }
+    },
+    {
+      "id": "layer-sluice-gates",
+      "type": "line",
+      "source": "source-sluice",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#e8262b",
+        "line-width": 3
       }
     },
     {
@@ -667,6 +684,17 @@ const mapConfig = {
       "category": "line",
       "filename": "secondary-drains.geojson",
       "sourceId": "source-secondary-drains"
+    },
+    {
+      "id": "layer-sluice-gates",
+      "name": "sluice gates",
+      "style": {
+        "strokeColor": "#e8262b",
+        "strokeWidth": 3
+      },
+      "category": "line",
+      "filename": "sluice-gates.geojson",
+      "sourceId": "source-sluice"
     }
   ]
 };
