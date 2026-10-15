@@ -103,7 +103,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem.webp",
+      "image": null,
       "pitch": 0,
       "quote": null,
       "legend": "./images/elevation-legend.svg",
@@ -165,7 +165,16 @@ const storyConfig = {
           "opacity": 0.7,
           "visible": true
         }
-      }
+      },
+      "images": [
+        {
+          "src": "./images/bengaluru-3d-dem.webp"
+        },
+        {
+          "src": "./images/cross-section-mangaluru-chennai.webp",
+          "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
+        }
+      ]
     },
     {
       "year": null,
