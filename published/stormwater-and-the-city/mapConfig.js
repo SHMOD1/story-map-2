@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "image",
-      "url": "./images/dem-hills.png?v=1792061302",
+      "url": "./images/dem-hills.png?v=1792061976",
       "coordinates": [
         [
           77.255859,
@@ -61,43 +61,43 @@ const mapConfig = {
     },
     "source-labels": {
       "type": "geojson",
-      "data": "./layers/labels.geojson?v=1792061302"
+      "data": "./layers/labels.geojson?v=1792061976"
     },
     "source-boundary": {
       "type": "geojson",
-      "data": "./layers/bbmp-boundary.geojson?v=1792061302"
+      "data": "./layers/bbmp-boundary.geojson?v=1792061976"
     },
     "source-roads": {
       "type": "geojson",
-      "data": "./layers/roads.geojson?v=1792061302"
+      "data": "./layers/roads.geojson?v=1792061976"
     },
     "source-roads-primary": {
       "type": "geojson",
-      "data": "./layers/roads-primary.geojson?v=1792061302"
+      "data": "./layers/roads-primary.geojson?v=1792061976"
     },
     "source-roads-trunk": {
       "type": "geojson",
-      "data": "./layers/roads-trunk.geojson?v=1792061302"
+      "data": "./layers/roads-trunk.geojson?v=1792061976"
     },
     "source-lakes": {
       "type": "geojson",
-      "data": "./layers/lakes.geojson?v=1792061302"
+      "data": "./layers/lakes.geojson?v=1792061976"
     },
     "source-green": {
       "type": "geojson",
-      "data": "./layers/green.geojson?v=1792061302"
+      "data": "./layers/green.geojson?v=1792061976"
     },
     "source-ridge-places": {
       "type": "geojson",
-      "data": "./layers/ridge-places.geojson?v=1792061302"
+      "data": "./layers/ridge-places.geojson?v=1792061976"
     },
     "source-streams": {
       "type": "geojson",
-      "data": "./layers/streams.geojson?v=1792061302"
+      "data": "./layers/streams.geojson?v=1792061976"
     },
     "source-dem-red": {
       "type": "image",
-      "url": "./images/dem-red.png?v=1792061302",
+      "url": "./images/dem-red.png?v=1792061976",
       "coordinates": [
         [
           77.255859,
@@ -119,15 +119,15 @@ const mapConfig = {
     },
     "source-primary-drains": {
       "type": "geojson",
-      "data": "./layers/primary-drains.geojson?v=1792061302"
+      "data": "./layers/primary-drains.geojson?v=1792061976"
     },
     "source-streams-fine": {
       "type": "geojson",
-      "data": "./layers/streams-fine.geojson?v=1792061302"
+      "data": "./layers/streams-fine.geojson?v=1792061976"
     },
     "source-secondary-drains": {
       "type": "geojson",
-      "data": "./layers/secondary-drains.geojson?v=1792061302"
+      "data": "./layers/secondary-drains.geojson?v=1792061976"
     },
     "source-dim": {
       "type": "geojson",
@@ -170,6 +170,74 @@ const mapConfig = {
     "source-stones": {
       "type": "geojson",
       "data": "./layers/inscription-stones.geojson"
+    },
+    "source-featured-stones": {
+      "type": "geojson",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "AGARA, AD 870"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.643516,
+                12.91801
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "VIBHUTIPURA, AD 1307"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.68087,
+                12.96515
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "source-featured-stones-names": {
+      "type": "geojson",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "AGARA, AD 870"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.643516,
+                12.91801
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "VIBHUTIPURA, AD 1307"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                77.68087,
+                12.96515
+              ]
+            }
+          }
+        ]
+      }
     }
   },
   "layers": [
@@ -553,6 +621,43 @@ const mapConfig = {
         "text-color": "#ffffff",
         "text-halo-color": "rgba(0,0,0,0.5)",
         "text-halo-width": 1
+      }
+    },
+    {
+      "id": "layer-featured-stones",
+      "type": "circle",
+      "source": "source-featured-stones",
+      "paint": {
+        "circle-radius": 9,
+        "circle-color": "#fff200",
+        "circle-stroke-color": "#1a1a1a",
+        "circle-stroke-width": 2
+      }
+    },
+    {
+      "id": "layer-featured-stones-names",
+      "type": "symbol",
+      "source": "source-featured-stones-names",
+      "layout": {
+        "text-field": [
+          "get",
+          "name"
+        ],
+        "text-font": [
+          "Open Sans Bold"
+        ],
+        "text-size": 13,
+        "text-anchor": "left",
+        "text-offset": [
+          1.1,
+          0
+        ],
+        "text-allow-overlap": true
+      },
+      "paint": {
+        "text-color": "#fff200",
+        "text-halo-color": "#1a1a1a",
+        "text-halo-width": 1.5
       }
     },
     {
