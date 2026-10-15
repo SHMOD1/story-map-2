@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "image",
-      "url": "./images/dem-hills.png?v=1792060605",
+      "url": "./images/dem-hills.png?v=1792061021",
       "coordinates": [
         [
           77.255859,
@@ -61,43 +61,43 @@ const mapConfig = {
     },
     "source-labels": {
       "type": "geojson",
-      "data": "./layers/labels.geojson?v=1792060605"
+      "data": "./layers/labels.geojson?v=1792061021"
     },
     "source-boundary": {
       "type": "geojson",
-      "data": "./layers/bbmp-boundary.geojson?v=1792060605"
+      "data": "./layers/bbmp-boundary.geojson?v=1792061021"
     },
     "source-roads": {
       "type": "geojson",
-      "data": "./layers/roads.geojson?v=1792060605"
+      "data": "./layers/roads.geojson?v=1792061021"
     },
     "source-roads-primary": {
       "type": "geojson",
-      "data": "./layers/roads-primary.geojson?v=1792060605"
+      "data": "./layers/roads-primary.geojson?v=1792061021"
     },
     "source-roads-trunk": {
       "type": "geojson",
-      "data": "./layers/roads-trunk.geojson?v=1792060605"
+      "data": "./layers/roads-trunk.geojson?v=1792061021"
     },
     "source-lakes": {
       "type": "geojson",
-      "data": "./layers/lakes.geojson?v=1792060605"
+      "data": "./layers/lakes.geojson?v=1792061021"
     },
     "source-green": {
       "type": "geojson",
-      "data": "./layers/green.geojson?v=1792060605"
+      "data": "./layers/green.geojson?v=1792061021"
     },
     "source-ridge-places": {
       "type": "geojson",
-      "data": "./layers/ridge-places.geojson?v=1792060605"
+      "data": "./layers/ridge-places.geojson?v=1792061021"
     },
     "source-streams": {
       "type": "geojson",
-      "data": "./layers/streams.geojson?v=1792060605"
+      "data": "./layers/streams.geojson?v=1792061021"
     },
     "source-dem-red": {
       "type": "image",
-      "url": "./images/dem-red.png?v=1792060605",
+      "url": "./images/dem-red.png?v=1792061021",
       "coordinates": [
         [
           77.255859,
@@ -119,15 +119,15 @@ const mapConfig = {
     },
     "source-primary-drains": {
       "type": "geojson",
-      "data": "./layers/primary-drains.geojson?v=1792060605"
+      "data": "./layers/primary-drains.geojson?v=1792061021"
     },
     "source-streams-fine": {
       "type": "geojson",
-      "data": "./layers/streams-fine.geojson?v=1792060605"
+      "data": "./layers/streams-fine.geojson?v=1792061021"
     },
     "source-secondary-drains": {
       "type": "geojson",
-      "data": "./layers/secondary-drains.geojson?v=1792060605"
+      "data": "./layers/secondary-drains.geojson?v=1792061021"
     },
     "source-dim": {
       "type": "geojson",
@@ -166,6 +166,10 @@ const mapConfig = {
     "source-sluice": {
       "type": "geojson",
       "data": "./layers/sluice-gates.geojson"
+    },
+    "source-stones": {
+      "type": "geojson",
+      "data": "./layers/inscription-stones.geojson"
     }
   },
   "layers": [
@@ -464,6 +468,42 @@ const mapConfig = {
       "paint": {}
     },
     {
+      "id": "layer-stones-other",
+      "type": "circle",
+      "source": "source-stones",
+      "filter": [
+        "==",
+        [
+          "get",
+          "kc"
+        ],
+        0
+      ],
+      "paint": {
+        "circle-radius": 3,
+        "circle-color": "#b8b23a",
+        "circle-opacity": 0.6
+      }
+    },
+    {
+      "id": "layer-stones-kc",
+      "type": "circle",
+      "source": "source-stones",
+      "filter": [
+        "==",
+        [
+          "get",
+          "kc"
+        ],
+        1
+      ],
+      "paint": {
+        "circle-radius": 4.5,
+        "circle-color": "#fff200",
+        "circle-opacity": 1
+      }
+    },
+    {
       "id": "layer-boundary-outline",
       "type": "line",
       "source": "source-boundary",
@@ -695,6 +735,14 @@ const mapConfig = {
       "category": "line",
       "filename": "sluice-gates.geojson",
       "sourceId": "source-sluice"
+    },
+    {
+      "id": "layer-stones",
+      "name": "inscription stones",
+      "style": null,
+      "category": "point",
+      "filename": "inscription-stones.geojson",
+      "sourceId": "source-stones"
     }
   ]
 };
