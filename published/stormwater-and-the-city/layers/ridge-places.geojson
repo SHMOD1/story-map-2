@@ -1,0 +1,89 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "HMT\nEstate",
+    "anchor": "right"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.547,
+     13.039
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Indian Institute\nof Science",
+    "anchor": "top-right"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5671,
+     13.0219
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bangalore\nPalace",
+    "anchor": "left"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.5921,
+     12.9988
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "High\nGrounds",
+    "anchor": "left"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.588,
+     12.99
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Basavangudi",
+    "anchor": "right"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.573,
+     12.942
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "JP Nagar",
+    "anchor": "left"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.585,
+     12.91
+    ]
+   }
+  }
+ ]
+}
