@@ -1724,3 +1724,14 @@ body {
   }
 
 }
+
+/* Chapters with several photos: show them as a compact two-column grid */
+.chapter-wrapper.multi-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  align-items: start;
+}
+.chapter-wrapper.multi-image > :not(.chapter-image) { grid-column: 1 / -1; }
+.chapter-wrapper.multi-image .chapter-image { margin: 0; }
+.chapter-wrapper.multi-image .chapter-image img { width: 100%; height: 110px; object-fit: cover; }

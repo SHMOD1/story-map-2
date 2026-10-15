@@ -130,23 +130,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg",
+          "src": "./images/bellandur.jpg?v=1792058177",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp",
+          "src": "./images/ulsoor.webp?v=1792058177",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp",
+          "src": "./images/kempambudhi.webp?v=1792058177",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp",
+          "src": "./images/sankey.webp?v=1792058177",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp",
+          "src": "./images/hebbal.webp?v=1792058177",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +156,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg",
+      "legend": "./images/elevation-legend.svg?v=1792058177",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -218,20 +218,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792058177"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792058177",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792058177",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg",
+      "legend": "./images/elevation-legend.svg?v=1792058177",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -336,7 +336,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg",
+      "legend": "./images/elevation-legend.svg?v=1792058177",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -410,7 +410,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg",
+      "legend": "./images/elevation-legend.svg?v=1792058177",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
