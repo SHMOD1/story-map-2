@@ -120,6 +120,10 @@ const mapConfig = {
     "source-primary-drains": {
       "type": "geojson",
       "data": "./layers/primary-drains.geojson"
+    },
+    "source-streams-fine": {
+      "type": "geojson",
+      "data": "./layers/streams-fine.geojson"
     }
   },
   "layers": [
@@ -146,6 +150,29 @@ const mapConfig = {
       "paint": {
         "fill-color": "#3fae49",
         "fill-opacity": 0.7
+      }
+    },
+    {
+      "id": "layer-streams-fine",
+      "type": "line",
+      "source": "source-streams-fine",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#7cc4f5",
+        "line-width": [
+          "match",
+          [
+            "get",
+            "order"
+          ],
+          4,
+          1.2,
+          0.7
+        ],
+        "line-opacity": 0.85
       }
     },
     {
@@ -517,6 +544,16 @@ const mapConfig = {
       "category": "line",
       "filename": "primary-drains.geojson",
       "sourceId": "source-primary-drains"
+    },
+    {
+      "id": "layer-streams-fine",
+      "name": "stream order 3-4",
+      "style": {
+        "strokeColor": "#7cc4f5"
+      },
+      "category": "line",
+      "filename": "streams-fine.geojson",
+      "sourceId": "source-streams-fine"
     }
   ]
 };
