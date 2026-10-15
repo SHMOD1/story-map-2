@@ -389,6 +389,34 @@ const storyConfig = {
     },
     {
       "year": null,
+      "image": "./images/three-basins.webp?v=1792058177",
+      "pitch": 0,
+      "quote": null,
+      "legend": null,
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "left",
+      "buttonUrl": null,
+      "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "[Placeholder] Text for the river basins image.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "8",
+      "chapterType": "image",
+      "title": "Three River Basins",
+      "center": [
+        77.6,
+        12.98
+      ],
+      "zoom": 11,
+      "layers": {}
+    },
+    {
+      "year": null,
       "image": null,
       "pitch": 0,
       "quote": null,
@@ -405,7 +433,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "8",
+      "id": "9",
       "chapterType": "title",
       "title": "INHABITING THE FLOW",
       "center": [
@@ -433,7 +461,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "9",
+      "id": "10",
       "chapterType": "map",
       "title": "Where the Water Flows",
       "center": [
@@ -507,7 +535,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "10",
+      "id": "11",
       "chapterType": "map",
       "title": "Primary Drains",
       "center": [
