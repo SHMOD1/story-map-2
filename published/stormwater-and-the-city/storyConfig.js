@@ -104,6 +104,28 @@ const storyConfig = {
           "color": "#3fae49",
           "opacity": 0.7,
           "visible": true
+        },
+        "layer-roads": {
+          "color": "#ffffff",
+          "opacity": 0.9,
+          "visible": true,
+          "strokeWidth": 1.5
+        },
+        "layer-roads-primary": {
+          "color": "#ffffff",
+          "opacity": 0.7,
+          "visible": true,
+          "strokeWidth": 0.8
+        },
+        "layer-roads-trunk": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2.5
+        },
+        "layer-roads-trunk-names": {
+          "opacity": 1,
+          "visible": true
         }
       },
       "images": [
