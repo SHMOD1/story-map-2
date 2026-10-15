@@ -354,17 +354,20 @@ function initScrollytelling() {
         titleSlideWrapper.appendChild(instructionsDiv);
       }
 
-      const buttonDiv = document.createElement('div');
-      buttonDiv.className = 'title-slide-button-container';
-      const diveInButton = document.createElement('button');
-      diveInButton.className = 'dive-in-button';
-      diveInButton.textContent = 'Dive In';
-      diveInButton.addEventListener('click', () => {
-        const firstReal = document.getElementById(chapters.find(c => c.chapterType !== 'title' && !c.isTitleSlide)?.id);
-        if (firstReal) firstReal.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      });
-      buttonDiv.appendChild(diveInButton);
-      titleSlideWrapper.appendChild(buttonDiv);
+      // Only the opening title slide gets the Dive In button; later title slides are part dividers
+      if (index === 0) {
+        const buttonDiv = document.createElement('div');
+        buttonDiv.className = 'title-slide-button-container';
+        const diveInButton = document.createElement('button');
+        diveInButton.className = 'dive-in-button';
+        diveInButton.textContent = 'Dive In';
+        diveInButton.addEventListener('click', () => {
+          const firstReal = document.getElementById(chapters.find(c => c.chapterType !== 'title' && !c.isTitleSlide)?.id);
+          if (firstReal) firstReal.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+        buttonDiv.appendChild(diveInButton);
+        titleSlideWrapper.appendChild(buttonDiv);
+      }
       chapterDiv.appendChild(titleSlideWrapper);
 
     } else {
@@ -768,7 +771,8 @@ function updateChapterNavigationCounter() {
   }
 
   const totalChapters = chapters.filter(ch => ch.chapterType !== 'title' && !ch.isTitleSlide).length;
-  navCounter.textContent = `${currentChapter?.id}/${totalChapters}`;
+  const position = chapters.slice(0, activeChapterIndex + 1).filter(ch => ch.chapterType !== 'title' && !ch.isTitleSlide).length;
+  navCounter.textContent = `${position}/${totalChapters}`;
 
   document.querySelectorAll('.chapter-nav-item').forEach(item => {
     item.classList.toggle('active', parseInt(item.dataset.chapterIndex) === activeChapterIndex);
