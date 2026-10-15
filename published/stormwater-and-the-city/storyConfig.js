@@ -130,23 +130,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792060585",
+          "src": "./images/bellandur.jpg?v=1792060605",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792060585",
+          "src": "./images/ulsoor.webp?v=1792060605",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792060585",
+          "src": "./images/kempambudhi.webp?v=1792060605",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792060585",
+          "src": "./images/sankey.webp?v=1792060605",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792060585",
+          "src": "./images/hebbal.webp?v=1792060605",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +156,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060585",
+      "legend": "./images/elevation-legend.svg?v=1792060605",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -218,20 +218,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792060585"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792060605"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792060585",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792060605",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792060585",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060585",
+      "legend": "./images/elevation-legend.svg?v=1792060605",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -305,7 +305,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792060585",
+      "image": "./images/deccan-plateau-dem.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -333,7 +333,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792060585",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -361,7 +361,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792060585",
+      "image": "./images/cauvery-basin.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -389,7 +389,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792060585",
+      "image": "./images/three-basins.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -445,10 +445,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/undulating-terrain.webp?v=1792060585",
+      "image": "./images/undulating-terrain.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060585",
+      "legend": "./images/elevation-legend.svg?v=1792060605",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -519,10 +519,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/water-collection.webp?v=1792060585",
+      "image": "./images/water-collection.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792060585",
+      "legend": "./images/elevation-legend.svg?v=1792060605",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -731,7 +731,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": null,
+      "image": "./images/bunds.webp?v=1792060605",
       "pitch": 0,
       "quote": null,
       "legend": null,
