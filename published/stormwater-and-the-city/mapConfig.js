@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "image",
-      "url": "./images/dem-hills.png",
+      "url": "./images/dem-hills.png?v=1792058177",
       "coordinates": [
         [
           77.255859,
@@ -61,43 +61,43 @@ const mapConfig = {
     },
     "source-labels": {
       "type": "geojson",
-      "data": "./layers/labels.geojson"
+      "data": "./layers/labels.geojson?v=1792058177"
     },
     "source-boundary": {
       "type": "geojson",
-      "data": "./layers/bbmp-boundary.geojson"
+      "data": "./layers/bbmp-boundary.geojson?v=1792058177"
     },
     "source-roads": {
       "type": "geojson",
-      "data": "./layers/roads.geojson"
+      "data": "./layers/roads.geojson?v=1792058177"
     },
     "source-roads-primary": {
       "type": "geojson",
-      "data": "./layers/roads-primary.geojson"
+      "data": "./layers/roads-primary.geojson?v=1792058177"
     },
     "source-roads-trunk": {
       "type": "geojson",
-      "data": "./layers/roads-trunk.geojson"
+      "data": "./layers/roads-trunk.geojson?v=1792058177"
     },
     "source-lakes": {
       "type": "geojson",
-      "data": "./layers/lakes.geojson"
+      "data": "./layers/lakes.geojson?v=1792058177"
     },
     "source-green": {
       "type": "geojson",
-      "data": "./layers/green.geojson"
+      "data": "./layers/green.geojson?v=1792058177"
     },
     "source-ridge-places": {
       "type": "geojson",
-      "data": "./layers/ridge-places.geojson"
+      "data": "./layers/ridge-places.geojson?v=1792058177"
     },
     "source-streams": {
       "type": "geojson",
-      "data": "./layers/streams.geojson"
+      "data": "./layers/streams.geojson?v=1792058177"
     },
     "source-dem-red": {
       "type": "image",
-      "url": "./images/dem-red.png",
+      "url": "./images/dem-red.png?v=1792058177",
       "coordinates": [
         [
           77.255859,
@@ -119,15 +119,15 @@ const mapConfig = {
     },
     "source-primary-drains": {
       "type": "geojson",
-      "data": "./layers/primary-drains.geojson"
+      "data": "./layers/primary-drains.geojson?v=1792058177"
     },
     "source-streams-fine": {
       "type": "geojson",
-      "data": "./layers/streams-fine.geojson"
+      "data": "./layers/streams-fine.geojson?v=1792058177"
     },
     "source-secondary-drains": {
       "type": "geojson",
-      "data": "./layers/secondary-drains.geojson"
+      "data": "./layers/secondary-drains.geojson?v=1792058177"
     }
   },
   "layers": [

@@ -415,6 +415,7 @@ function initScrollytelling() {
       chapterWrapper.appendChild(contentDiv);
 
       const chapterImages = chapter.images ?? (chapter.image ? [{ src: chapter.image, caption: chapter.imageCaption }] : []);
+      if (!isImage && chapterImages.length > 2) chapterWrapper.classList.add('multi-image');
       if (!isImage) chapterImages.forEach(({ src, caption: captionText }) => {
         const imageDiv = document.createElement('div');
         imageDiv.className = 'chapter-image';
