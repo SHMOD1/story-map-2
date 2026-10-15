@@ -130,23 +130,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?1792059535",
+          "src": "./images/bellandur.jpg?v=1792059831",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?1792059535",
+          "src": "./images/ulsoor.webp?v=1792059831",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?1792059535",
+          "src": "./images/kempambudhi.webp?v=1792059831",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?1792059535",
+          "src": "./images/sankey.webp?v=1792059831",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?1792059535",
+          "src": "./images/hebbal.webp?v=1792059831",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +156,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?1792059535",
+      "legend": "./images/elevation-legend.svg?v=1792059831",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -218,20 +218,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?1792059535"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792059831"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?1792059535",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792059831",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?1792059535",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792059831",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?1792059535",
+      "legend": "./images/elevation-legend.svg?v=1792059831",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -305,7 +305,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?1792059535",
+      "image": "./images/deccan-plateau-dem.webp?v=1792059831",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -333,7 +333,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?1792059535",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792059831",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -361,7 +361,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?1792059535",
+      "image": "./images/cauvery-basin.webp?v=1792059831",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -389,7 +389,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?1792059535",
+      "image": "./images/three-basins.webp?v=1792059831",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -445,10 +445,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/high-low-grounds.webp?1792059535",
+      "image": "./images/high-low-grounds.webp?v=1792059831",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?1792059535",
+      "legend": "./images/elevation-legend.svg?v=1792059831",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -519,10 +519,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/high-low-grounds-tanks.webp?1792059535",
+      "image": "./images/high-low-grounds-tanks.webp?v=1792059831",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?1792059535",
+      "legend": "./images/elevation-legend.svg?v=1792059831",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
