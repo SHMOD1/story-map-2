@@ -116,6 +116,10 @@ const mapConfig = {
           12.554564
         ]
       ]
+    },
+    "source-primary-drains": {
+      "type": "geojson",
+      "data": "./layers/primary-drains.geojson"
     }
   },
   "layers": [
@@ -142,6 +146,19 @@ const mapConfig = {
       "paint": {
         "fill-color": "#3fae49",
         "fill-opacity": 0.7
+      }
+    },
+    {
+      "id": "layer-primary-drains",
+      "type": "line",
+      "source": "source-primary-drains",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#7cc4f5",
+        "line-width": 2
       }
     },
     {
@@ -489,6 +506,17 @@ const mapConfig = {
       "category": "line",
       "filename": "streams.geojson",
       "sourceId": "source-streams"
+    },
+    {
+      "id": "layer-primary-drains",
+      "name": "primary drains",
+      "style": {
+        "strokeColor": "#7cc4f5",
+        "strokeWidth": 2
+      },
+      "category": "line",
+      "filename": "primary-drains.geojson",
+      "sourceId": "source-primary-drains"
     }
   ]
 };
