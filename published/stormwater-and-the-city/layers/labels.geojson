@@ -196,6 +196,90 @@
      13.1007
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Hebbal",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.586701,
+     13.047246
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sankey Tank",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.574034,
+     13.009911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ulsoor",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.619202,
+     12.982222
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kempambudhi",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.56007,
+     12.951674
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Bellandur",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.666999,
+     12.935958
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Madiwala",
+    "chapter": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     77.616816,
+     12.906585
+    ]
+   }
   }
  ]
 }
