@@ -130,23 +130,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792058177",
+          "src": "./images/bellandur.jpg?1792059535",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792058177",
+          "src": "./images/ulsoor.webp?1792059535",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792058177",
+          "src": "./images/kempambudhi.webp?1792059535",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792058177",
+          "src": "./images/sankey.webp?1792059535",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792058177",
+          "src": "./images/hebbal.webp?1792059535",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +156,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792058177",
+      "legend": "./images/elevation-legend.svg?1792059535",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -218,20 +218,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792058177"
+          "src": "./images/bengaluru-3d-dem.webp?1792059535"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792058177",
+          "src": "./images/cross-section-mangaluru-chennai.webp?1792059535",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792058177",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?1792059535",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792058177",
+      "legend": "./images/elevation-legend.svg?1792059535",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -305,7 +305,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792058177",
+      "image": "./images/deccan-plateau-dem.webp?1792059535",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -333,7 +333,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792058177",
+      "image": "./images/deccan-plateau-bengaluru.webp?1792059535",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -361,7 +361,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792058177",
+      "image": "./images/cauvery-basin.webp?1792059535",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -389,7 +389,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792058177",
+      "image": "./images/three-basins.webp?1792059535",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -445,10 +445,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/high-low-grounds.webp?v=1792058177",
+      "image": "./images/high-low-grounds.webp?1792059535",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792058177",
+      "legend": "./images/elevation-legend.svg?1792059535",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -519,10 +519,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/high-low-grounds-tanks.webp?v=1792058177",
+      "image": "./images/high-low-grounds-tanks.webp?1792059535",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792058177",
+      "legend": "./images/elevation-legend.svg?1792059535",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -616,6 +616,111 @@ const storyConfig = {
           "opacity": 0.5,
           "visible": true,
           "strokeWidth": 1.5
+        }
+      }
+    },
+    {
+      "year": null,
+      "image": null,
+      "pitch": 0,
+      "quote": null,
+      "legend": null,
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "left",
+      "buttonUrl": null,
+      "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "[Placeholder] Text for the valley drains and lakes.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "12",
+      "chapterType": "map",
+      "title": "Koramangala–Challaghatta Valley",
+      "center": [
+        77.6,
+        12.98
+      ],
+      "zoom": 11,
+      "layers": {
+        "layer-roads": {
+          "color": "#ffffff",
+          "opacity": 0.9,
+          "visible": true,
+          "strokeWidth": 1.5
+        },
+        "layer-roads-primary": {
+          "color": "#ffffff",
+          "opacity": 0.7,
+          "visible": true,
+          "strokeWidth": 0.8
+        },
+        "layer-roads-trunk": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2.5
+        },
+        "layer-roads-trunk-names": {
+          "opacity": 1,
+          "visible": true
+        },
+        "layer-boundary-outline": {
+          "color": "#ffd400",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 3
+        },
+        "layer-dem-red": {
+          "opacity": 0.15,
+          "visible": true
+        },
+        "layer-streams": {
+          "opacity": 0.3,
+          "visible": true
+        },
+        "layer-streams-fine": {
+          "color": "#7cc4f5",
+          "opacity": 0.25,
+          "visible": true
+        },
+        "layer-secondary-drains": {
+          "color": "#7cc4f5",
+          "opacity": 0.25,
+          "visible": true,
+          "strokeWidth": 1
+        },
+        "layer-primary-drains": {
+          "color": "#7cc4f5",
+          "opacity": 0.3,
+          "visible": true,
+          "strokeWidth": 2
+        },
+        "layer-kc-secondary": {
+          "color": "#86eef5",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 1.4
+        },
+        "layer-kc-primary": {
+          "color": "#86eef5",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 3
+        },
+        "layer-lakes-fill": {
+          "color": "#3fd3d6",
+          "opacity": 1,
+          "visible": true
+        },
+        "layer-lakes-outline": {
+          "color": "#3fd3d6",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 1
         }
       }
     }
