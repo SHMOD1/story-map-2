@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "image",
-      "url": "./images/dem-hills.png",
+      "url": "https://raw.githubusercontent.com/SHMOD1/story-map-2/claude/modest-ramanujan-kk88yd/published/stormwater-and-the-city/images/dem-hills.png",
       "coordinates": [
         [
           77.255859,
@@ -97,7 +97,7 @@ const mapConfig = {
     },
     "source-dem-red": {
       "type": "image",
-      "url": "./images/dem-red.png",
+      "url": "https://raw.githubusercontent.com/SHMOD1/story-map-2/claude/modest-ramanujan-kk88yd/published/stormwater-and-the-city/images/dem-red.png",
       "coordinates": [
         [
           77.255859,
