@@ -73,6 +73,10 @@ const mapConfig = {
     "source-ridge-places": {
       "type": "geojson",
       "data": "./layers/ridge-places.geojson"
+    },
+    "source-streams": {
+      "type": "geojson",
+      "data": "./layers/streams.geojson"
     }
   },
   "layers": [
@@ -109,6 +113,60 @@ const mapConfig = {
       "paint": {
         "line-color": "#7cc0ff",
         "line-width": 1
+      }
+    },
+    {
+      "id": "layer-streams",
+      "type": "line",
+      "source": "source-streams",
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#4ff0f0",
+        "line-width": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "get",
+            "order"
+          ],
+          5,
+          1,
+          7,
+          2.5
+        ]
+      }
+    },
+    {
+      "id": "layer-streams-arrows",
+      "type": "symbol",
+      "source": "source-streams",
+      "filter": [
+        ">=",
+        [
+          "get",
+          "order"
+        ],
+        6
+      ],
+      "layout": {
+        "symbol-placement": "line",
+        "symbol-spacing": 180,
+        "text-field": ">",
+        "text-font": [
+          "Open Sans Bold"
+        ],
+        "text-size": 16,
+        "text-keep-upright": false,
+        "text-rotation-alignment": "map",
+        "text-allow-overlap": true
+      },
+      "paint": {
+        "text-color": "#4ff0f0"
       }
     },
     {
@@ -364,6 +422,16 @@ const mapConfig = {
       "category": "point",
       "filename": "ridge-places.geojson",
       "sourceId": "source-ridge-places"
+    },
+    {
+      "id": "layer-streams",
+      "name": "stream order 5+",
+      "style": {
+        "strokeColor": "#4ff0f0"
+      },
+      "category": "line",
+      "filename": "streams.geojson",
+      "sourceId": "source-streams"
     }
   ]
 };
