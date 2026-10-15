@@ -77,7 +77,29 @@ const storyConfig = {
           "opacity": 0.7,
           "visible": true
         }
-      }
+      },
+      "images": [
+        {
+          "src": "./images/bellandur.jpg",
+          "caption": "Bellandur"
+        },
+        {
+          "src": "./images/ulsoor.webp",
+          "caption": "Ulsoor"
+        },
+        {
+          "src": "./images/kempambudhi.webp",
+          "caption": "Kempambudhi"
+        },
+        {
+          "src": "./images/sankey.webp",
+          "caption": "Sankey Tank"
+        },
+        {
+          "src": "./images/hebbal.webp",
+          "caption": "Hebbal"
+        }
+      ]
     },
     {
       "year": null,

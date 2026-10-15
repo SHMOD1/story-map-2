@@ -400,19 +400,20 @@ function initScrollytelling() {
 
       chapterWrapper.appendChild(contentDiv);
 
-      if (chapter.image && !isImage) {
+      const chapterImages = chapter.images ?? (chapter.image ? [{ src: chapter.image, caption: chapter.imageCaption }] : []);
+      if (!isImage) chapterImages.forEach(({ src, caption: captionText }) => {
         const imageDiv = document.createElement('div');
         imageDiv.className = 'chapter-image';
 
         const img = document.createElement('img');
-        img.src = chapter.image;
-        img.alt = chapter.title;
+        img.src = src;
+        img.alt = captionText || chapter.title;
         img.style.cursor = 'pointer';
 
         let holdTimer;
         function startImageHold(e) {
           e.preventDefault();
-          holdTimer = setTimeout(() => showImagePopup(chapter.image, chapter.title, chapter.imageCaption), 200);
+          holdTimer = setTimeout(() => showImagePopup(src, chapter.title, captionText), 200);
         }
         function cancelImageHold() { clearTimeout(holdTimer); }
         img.addEventListener('mousedown', startImageHold);
@@ -424,15 +425,15 @@ function initScrollytelling() {
 
         imageDiv.appendChild(img);
 
-        if (chapter.imageCaption) {
+        if (captionText) {
           const caption = document.createElement('h4');
           caption.className = 'chapter-image-caption';
-          caption.textContent = chapter.imageCaption;
+          caption.textContent = captionText;
           imageDiv.appendChild(caption);
         }
 
         chapterWrapper.appendChild(imageDiv);
-      }
+      });
 
       if (index === chapters.length - 1 && chapter.buttonText) {
         const buttonDiv = document.createElement('div');
