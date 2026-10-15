@@ -65,6 +65,12 @@ const storyConfig = {
           "opacity": 1,
           "visible": true,
           "strokeWidth": 1
+        },
+        "layer-boundary-outline": {
+          "color": "#ffd400",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 3
         }
       }
     },
