@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "image",
-      "url": "./images/dem-hills.png?v=1792061976",
+      "url": "./images/dem-hills.png?v=1792135574",
       "coordinates": [
         [
           77.255859,
@@ -61,43 +61,43 @@ const mapConfig = {
     },
     "source-labels": {
       "type": "geojson",
-      "data": "./layers/labels.geojson?v=1792061976"
+      "data": "./layers/labels.geojson?v=1792135574"
     },
     "source-boundary": {
       "type": "geojson",
-      "data": "./layers/bbmp-boundary.geojson?v=1792061976"
+      "data": "./layers/bbmp-boundary.geojson?v=1792135574"
     },
     "source-roads": {
       "type": "geojson",
-      "data": "./layers/roads.geojson?v=1792061976"
+      "data": "./layers/roads.geojson?v=1792135574"
     },
     "source-roads-primary": {
       "type": "geojson",
-      "data": "./layers/roads-primary.geojson?v=1792061976"
+      "data": "./layers/roads-primary.geojson?v=1792135574"
     },
     "source-roads-trunk": {
       "type": "geojson",
-      "data": "./layers/roads-trunk.geojson?v=1792061976"
+      "data": "./layers/roads-trunk.geojson?v=1792135574"
     },
     "source-lakes": {
       "type": "geojson",
-      "data": "./layers/lakes.geojson?v=1792061976"
+      "data": "./layers/lakes.geojson?v=1792135574"
     },
     "source-green": {
       "type": "geojson",
-      "data": "./layers/green.geojson?v=1792061976"
+      "data": "./layers/green.geojson?v=1792135574"
     },
     "source-ridge-places": {
       "type": "geojson",
-      "data": "./layers/ridge-places.geojson?v=1792061976"
+      "data": "./layers/ridge-places.geojson?v=1792135574"
     },
     "source-streams": {
       "type": "geojson",
-      "data": "./layers/streams.geojson?v=1792061976"
+      "data": "./layers/streams.geojson?v=1792135574"
     },
     "source-dem-red": {
       "type": "image",
-      "url": "./images/dem-red.png?v=1792061976",
+      "url": "./images/dem-red.png?v=1792135574",
       "coordinates": [
         [
           77.255859,
@@ -119,15 +119,15 @@ const mapConfig = {
     },
     "source-primary-drains": {
       "type": "geojson",
-      "data": "./layers/primary-drains.geojson?v=1792061976"
+      "data": "./layers/primary-drains.geojson?v=1792135574"
     },
     "source-streams-fine": {
       "type": "geojson",
-      "data": "./layers/streams-fine.geojson?v=1792061976"
+      "data": "./layers/streams-fine.geojson?v=1792135574"
     },
     "source-secondary-drains": {
       "type": "geojson",
-      "data": "./layers/secondary-drains.geojson?v=1792061976"
+      "data": "./layers/secondary-drains.geojson?v=1792135574"
     },
     "source-dim": {
       "type": "geojson",

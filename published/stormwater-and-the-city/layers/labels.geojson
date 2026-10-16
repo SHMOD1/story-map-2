@@ -5,7 +5,7 @@
    "type": "Feature",
    "properties": {
     "name": "Majestic (KBS) 903 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -19,7 +19,7 @@
    "type": "Feature",
    "properties": {
     "name": "Palace 930 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -33,7 +33,7 @@
    "type": "Feature",
    "properties": {
     "name": "Yeshwantpur 920 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -47,7 +47,7 @@
    "type": "Feature",
    "properties": {
     "name": "Fort 903 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -61,7 +61,7 @@
    "type": "Feature",
    "properties": {
     "name": "Jayanagar 925 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -75,7 +75,7 @@
    "type": "Feature",
    "properties": {
     "name": "JS Dinne 940 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -89,7 +89,7 @@
    "type": "Feature",
    "properties": {
     "name": "Madiwala 885 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -103,7 +103,7 @@
    "type": "Feature",
    "properties": {
     "name": "Bellanduru L. 870 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -117,7 +117,7 @@
    "type": "Feature",
    "properties": {
     "name": "Varthuru L. 860 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -131,7 +131,7 @@
    "type": "Feature",
    "properties": {
     "name": "Vijayanagar 880 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -145,7 +145,7 @@
    "type": "Feature",
    "properties": {
     "name": "Kengeri 790 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -159,7 +159,7 @@
    "type": "Feature",
    "properties": {
     "name": "Ulsoor 890 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -173,7 +173,7 @@
    "type": "Feature",
    "properties": {
     "name": "Whitefield 867 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -187,7 +187,7 @@
    "type": "Feature",
    "properties": {
     "name": "Yelahanka 910 m",
-    "chapter": 3
+    "chapter": 4
    },
    "geometry": {
     "type": "Point",
@@ -201,7 +201,7 @@
    "type": "Feature",
    "properties": {
     "name": "Hebbal",
-    "chapter": 2
+    "chapter": 3
    },
    "geometry": {
     "type": "Point",
@@ -215,7 +215,7 @@
    "type": "Feature",
    "properties": {
     "name": "Sankey Tank",
-    "chapter": 2
+    "chapter": 3
    },
    "geometry": {
     "type": "Point",
@@ -229,7 +229,7 @@
    "type": "Feature",
    "properties": {
     "name": "Ulsoor",
-    "chapter": 2
+    "chapter": 3
    },
    "geometry": {
     "type": "Point",
@@ -243,7 +243,7 @@
    "type": "Feature",
    "properties": {
     "name": "Kempambudhi",
-    "chapter": 2
+    "chapter": 3
    },
    "geometry": {
     "type": "Point",
@@ -257,7 +257,7 @@
    "type": "Feature",
    "properties": {
     "name": "Bellandur",
-    "chapter": 2
+    "chapter": 3
    },
    "geometry": {
     "type": "Point",
@@ -271,7 +271,7 @@
    "type": "Feature",
    "properties": {
     "name": "Madiwala",
-    "chapter": 2
+    "chapter": 3
    },
    "geometry": {
     "type": "Point",
