@@ -158,23 +158,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792135574",
+          "src": "./images/bellandur.jpg?v=1792135933",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792135574",
+          "src": "./images/ulsoor.webp?v=1792135933",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792135574",
+          "src": "./images/kempambudhi.webp?v=1792135933",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792135574",
+          "src": "./images/sankey.webp?v=1792135933",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792135574",
+          "src": "./images/hebbal.webp?v=1792135933",
           "caption": "Hebbal"
         }
       ]
@@ -184,7 +184,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135574",
+      "legend": "./images/elevation-legend.svg?v=1792135933",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -246,20 +246,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792135574"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792135933"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792135574",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792135933",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792135574",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135574",
+      "legend": "./images/elevation-legend.svg?v=1792135933",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -328,12 +328,24 @@ const storyConfig = {
         "layer-ridge-places-names": {
           "opacity": 1,
           "visible": true
+        },
+        "layer-ridge-casing": {
+          "color": "#111111",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 5
+        },
+        "layer-ridge-dash": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2
         }
       }
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792135574",
+      "image": "./images/deccan-plateau-dem.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -361,7 +373,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792135574",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -389,7 +401,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792135574",
+      "image": "./images/cauvery-basin.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -417,7 +429,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792135574",
+      "image": "./images/three-basins.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -473,10 +485,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/undulating-terrain.webp?v=1792135574",
+      "image": "./images/undulating-terrain.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135574",
+      "legend": "./images/elevation-legend.svg?v=1792135933",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -542,15 +554,27 @@ const storyConfig = {
         "layer-streams-arrows": {
           "opacity": 1,
           "visible": true
+        },
+        "layer-ridge-casing": {
+          "color": "#111111",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 5
+        },
+        "layer-ridge-dash": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2
         }
       }
     },
     {
       "year": null,
-      "image": "./images/water-collection.webp?v=1792135574",
+      "image": "./images/water-collection.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135574",
+      "legend": "./images/elevation-legend.svg?v=1792135933",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -644,6 +668,18 @@ const storyConfig = {
           "opacity": 0.5,
           "visible": true,
           "strokeWidth": 1.5
+        },
+        "layer-ridge-casing": {
+          "color": "#111111",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 5
+        },
+        "layer-ridge-dash": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2
         }
       }
     },
@@ -754,12 +790,24 @@ const storyConfig = {
           "opacity": 1,
           "visible": true,
           "strokeWidth": 1
+        },
+        "layer-ridge-casing": {
+          "color": "#111111",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 5
+        },
+        "layer-ridge-dash": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2
         }
       }
     },
     {
       "year": null,
-      "image": "./images/bunds.webp?v=1792135574",
+      "image": "./images/bunds.webp?v=1792135933",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -870,6 +918,18 @@ const storyConfig = {
           "opacity": 1,
           "visible": true,
           "strokeWidth": 3
+        },
+        "layer-ridge-casing": {
+          "color": "#111111",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 5
+        },
+        "layer-ridge-dash": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2
         }
       }
     },
@@ -997,15 +1057,27 @@ const storyConfig = {
         "layer-featured-stones-names": {
           "opacity": 1,
           "visible": true
+        },
+        "layer-ridge-casing": {
+          "color": "#111111",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 5
+        },
+        "layer-ridge-dash": {
+          "color": "#ffffff",
+          "opacity": 1,
+          "visible": true,
+          "strokeWidth": 2
         }
       },
       "images": [
         {
-          "src": "./images/inscription-stones-photo.webp?v=1792135574",
+          "src": "./images/inscription-stones-photo.webp?v=1792135933",
           "caption": "Photos: Harini Nagendra and Hita Unnikrishnan"
         },
         {
-          "src": "./images/vibhutipura-inscription.webp?v=1792135574",
+          "src": "./images/vibhutipura-inscription.webp?v=1792135933",
           "caption": "Source: Inscription Stones of Bangalore; BL Rice, Epigraphia Carnatica, Vol IX"
         }
       ]
