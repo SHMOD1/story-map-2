@@ -158,23 +158,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792135933",
+          "src": "./images/bellandur.jpg?v=1792136007",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792135933",
+          "src": "./images/ulsoor.webp?v=1792136007",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792135933",
+          "src": "./images/kempambudhi.webp?v=1792136007",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792135933",
+          "src": "./images/sankey.webp?v=1792136007",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792135933",
+          "src": "./images/hebbal.webp?v=1792136007",
           "caption": "Hebbal"
         }
       ]
@@ -184,7 +184,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135933",
+      "legend": "./images/elevation-legend.svg?v=1792136007",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -246,20 +246,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792135933"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792136007"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792135933",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792136007",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792135933",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135933",
+      "legend": "./images/elevation-legend.svg?v=1792136007",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -345,7 +345,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792135933",
+      "image": "./images/deccan-plateau-dem.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -373,7 +373,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792135933",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -401,7 +401,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792135933",
+      "image": "./images/cauvery-basin.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -429,7 +429,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792135933",
+      "image": "./images/three-basins.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -466,7 +466,7 @@ const storyConfig = {
       "subtitle": null,
       "alignment": "center",
       "buttonUrl": null,
-      "subtitle2": null,
+      "subtitle2": "As this region has no perennial source of water, how did people occupy the land?",
       "buttonText": null,
       "population": null,
       "description": null,
@@ -485,10 +485,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/undulating-terrain.webp?v=1792135933",
+      "image": "./images/undulating-terrain.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135933",
+      "legend": "./images/elevation-legend.svg?v=1792136007",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -571,10 +571,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/water-collection.webp?v=1792135933",
+      "image": "./images/water-collection.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792135933",
+      "legend": "./images/elevation-legend.svg?v=1792136007",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -697,7 +697,7 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "[Placeholder] Text for the valley drains and lakes.",
+      "description": "Bangalore is not a flat land. Water runs from the ridge down the valleys, through a network of drains and tanks.\n\nHow do you think water would have been stopped from flowing from one point to another?",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
@@ -807,7 +807,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/bunds.webp?v=1792135933",
+      "image": "./images/bunds.webp?v=1792136007",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -819,7 +819,7 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "Built at the low point of the terrain to create a damming structure.",
+      "description": "They built bund walls, or retaining walls — built at the low point of the terrain to create a damming structure. The red marks show where the bund walls were constructed.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
@@ -947,7 +947,7 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "One of the oldest inscriptions, of AD 870 near Agara lake, reads: “The Irvvuliyur odeya, Irugamayya’s son Sirimayya, fixed sluices to the two tanks, had the eastern tank built, and obtained the bittuvatta of the three tanks.”\n\nAn important motivation for the construction of lakes was the granting of bittuvatta, agricultural grants of irrigated lands below the lake, to the founder. Lakes were not isolated entities, and along with them, grants frequently included dry lands above the lake, irrigated lands below the lake, and trees and wells in the vicinity.\n\nAD 1307, near Vibhutipura: “Having cleared the jungle in the tract of land adjoining Peru-Erumur, ? leveled the ground, built a village, constructed a tank by removing the sand, and named the village Vachchidevarpuram, granted to Vacchi-devar the village and the wet and dry lands adjoining it, with their four boundaries, as a madappuram, exempt from taxes, for as long as the moon and the sun exist.”",
+      "description": "This immersive experience has been designed based on archival records. Inscription stones, or Veeragallu, record bittuvatta — grants given to community members for maintaining agricultural lands.\n\nOne of the oldest inscriptions, of AD 870 near Agara lake, reads: “The Irvvuliyur odeya, Irugamayya’s son Sirimayya, fixed sluices to the two tanks, had the eastern tank built, and obtained the bittuvatta of the three tanks.”\n\nAn important motivation for the construction of lakes was the granting of bittuvatta, agricultural grants of irrigated lands below the lake, to the founder. Lakes were not isolated entities, and along with them, grants frequently included dry lands above the lake, irrigated lands below the lake, and trees and wells in the vicinity.\n\nAD 1307, near Vibhutipura: “Having cleared the jungle in the tract of land adjoining Peru-Erumur, ? leveled the ground, built a village, constructed a tank by removing the sand, and named the village Vachchidevarpuram, granted to Vacchi-devar the village and the wet and dry lands adjoining it, with their four boundaries, as a madappuram, exempt from taxes, for as long as the moon and the sun exist.”\n\nThe yellow dots mark two of the inscription stones mapped across Bengaluru by the Inscription Stones of Bengaluru (ISB) project under the Mythic Society.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
@@ -1073,11 +1073,11 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/inscription-stones-photo.webp?v=1792135933",
+          "src": "./images/inscription-stones-photo.webp?v=1792136007",
           "caption": "Photos: Harini Nagendra and Hita Unnikrishnan"
         },
         {
-          "src": "./images/vibhutipura-inscription.webp?v=1792135933",
+          "src": "./images/vibhutipura-inscription.webp?v=1792136007",
           "caption": "Source: Inscription Stones of Bangalore; BL Rice, Epigraphia Carnatica, Vol IX"
         }
       ]
