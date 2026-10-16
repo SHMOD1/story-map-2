@@ -39,7 +39,7 @@ const mapConfig = {
   "sources": {
     "source-dem-cog": {
       "type": "image",
-      "url": "./images/dem-hills.png?v=1792135574",
+      "url": "./images/dem-hills.png?v=1792135933",
       "coordinates": [
         [
           77.255859,
@@ -61,43 +61,43 @@ const mapConfig = {
     },
     "source-labels": {
       "type": "geojson",
-      "data": "./layers/labels.geojson?v=1792135574"
+      "data": "./layers/labels.geojson?v=1792135933"
     },
     "source-boundary": {
       "type": "geojson",
-      "data": "./layers/bbmp-boundary.geojson?v=1792135574"
+      "data": "./layers/bbmp-boundary.geojson?v=1792135933"
     },
     "source-roads": {
       "type": "geojson",
-      "data": "./layers/roads.geojson?v=1792135574"
+      "data": "./layers/roads.geojson?v=1792135933"
     },
     "source-roads-primary": {
       "type": "geojson",
-      "data": "./layers/roads-primary.geojson?v=1792135574"
+      "data": "./layers/roads-primary.geojson?v=1792135933"
     },
     "source-roads-trunk": {
       "type": "geojson",
-      "data": "./layers/roads-trunk.geojson?v=1792135574"
+      "data": "./layers/roads-trunk.geojson?v=1792135933"
     },
     "source-lakes": {
       "type": "geojson",
-      "data": "./layers/lakes.geojson?v=1792135574"
+      "data": "./layers/lakes.geojson?v=1792135933"
     },
     "source-green": {
       "type": "geojson",
-      "data": "./layers/green.geojson?v=1792135574"
+      "data": "./layers/green.geojson?v=1792135933"
     },
     "source-ridge-places": {
       "type": "geojson",
-      "data": "./layers/ridge-places.geojson?v=1792135574"
+      "data": "./layers/ridge-places.geojson?v=1792135933"
     },
     "source-streams": {
       "type": "geojson",
-      "data": "./layers/streams.geojson?v=1792135574"
+      "data": "./layers/streams.geojson?v=1792135933"
     },
     "source-dem-red": {
       "type": "image",
-      "url": "./images/dem-red.png?v=1792135574",
+      "url": "./images/dem-red.png?v=1792135933",
       "coordinates": [
         [
           77.255859,
@@ -119,15 +119,15 @@ const mapConfig = {
     },
     "source-primary-drains": {
       "type": "geojson",
-      "data": "./layers/primary-drains.geojson?v=1792135574"
+      "data": "./layers/primary-drains.geojson?v=1792135933"
     },
     "source-streams-fine": {
       "type": "geojson",
-      "data": "./layers/streams-fine.geojson?v=1792135574"
+      "data": "./layers/streams-fine.geojson?v=1792135933"
     },
     "source-secondary-drains": {
       "type": "geojson",
-      "data": "./layers/secondary-drains.geojson?v=1792135574"
+      "data": "./layers/secondary-drains.geojson?v=1792135933"
     },
     "source-dim": {
       "type": "geojson",
@@ -238,6 +238,10 @@ const mapConfig = {
           }
         ]
       }
+    },
+    "source-ridge": {
+      "type": "geojson",
+      "data": "./layers/ridge-line.geojson"
     }
   },
   "layers": [
@@ -585,6 +589,35 @@ const mapConfig = {
       }
     },
     {
+      "id": "layer-ridge-casing",
+      "type": "line",
+      "source": "source-ridge",
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#111111",
+        "line-width": 5
+      }
+    },
+    {
+      "id": "layer-ridge-dash",
+      "type": "line",
+      "source": "source-ridge",
+      "layout": {
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 2,
+        "line-dasharray": [
+          3,
+          2
+        ]
+      }
+    },
+    {
       "id": "layer-ridge-places-dots",
       "type": "circle",
       "source": "source-ridge-places",
@@ -848,6 +881,17 @@ const mapConfig = {
       "category": "point",
       "filename": "inscription-stones.geojson",
       "sourceId": "source-stones"
+    },
+    {
+      "id": "layer-ridge",
+      "name": "ridge line",
+      "style": {
+        "strokeColor": "#111111",
+        "strokeWidth": 5
+      },
+      "category": "line",
+      "filename": "ridge-line.geojson",
+      "sourceId": "source-ridge"
     }
   ]
 };
