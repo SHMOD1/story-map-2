@@ -37,16 +37,44 @@ const storyConfig = {
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
-      "alignment": "center",
+      "alignment": "left",
       "buttonUrl": null,
       "subtitle2": null,
+      "buttonText": null,
+      "population": null,
+      "description": "Between Tanks and Taps is an interactive research-based session by the MOD Foundation that explores the city's unique and evolving relationship with water. From its natural topography and historic manmade tank systems to the arrival of piped water and rapid urban expansion, this experience unpacks how the city's lifeline has shifted over time.\n\nToday, Bangalore faces mounting water crises—frequent shortages, over-extraction of groundwater, and a fragile dependence on distant sources. We believe the key to understanding and overcoming these challenges lies in looking back: in learning how we got here, what we’ve gained, and what we’ve lost along the way.",
+      "quoteSource": null,
+      "imageCaption": null,
+      "descriptionSource": null,
+      "id": "1",
+      "chapterType": "map",
+      "title": "Between Tanks and Taps",
+      "center": [
+        77.6,
+        12.98
+      ],
+      "zoom": 11,
+      "layers": {}
+    },
+    {
+      "year": null,
+      "image": null,
+      "pitch": 0,
+      "quote": null,
+      "legend": null,
+      "bearing": 0,
+      "duration": 2000,
+      "subtitle": null,
+      "alignment": "center",
+      "buttonUrl": null,
+      "subtitle2": "The peculiar geography of the Deccan Plateau, and the unique case of Bengaluru",
       "buttonText": null,
       "population": null,
       "description": null,
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "1",
+      "id": "2",
       "chapterType": "title",
       "title": "HILLS & VALLEYS",
       "center": [
@@ -74,7 +102,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "2",
+      "id": "3",
       "chapterType": "map",
       "title": "Lakes",
       "center": [
@@ -130,23 +158,23 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bellandur.jpg?v=1792061976",
+          "src": "./images/bellandur.jpg?v=1792135574",
           "caption": "Bellandur"
         },
         {
-          "src": "./images/ulsoor.webp?v=1792061976",
+          "src": "./images/ulsoor.webp?v=1792135574",
           "caption": "Ulsoor"
         },
         {
-          "src": "./images/kempambudhi.webp?v=1792061976",
+          "src": "./images/kempambudhi.webp?v=1792135574",
           "caption": "Kempambudhi"
         },
         {
-          "src": "./images/sankey.webp?v=1792061976",
+          "src": "./images/sankey.webp?v=1792135574",
           "caption": "Sankey Tank"
         },
         {
-          "src": "./images/hebbal.webp?v=1792061976",
+          "src": "./images/hebbal.webp?v=1792135574",
           "caption": "Hebbal"
         }
       ]
@@ -156,7 +184,7 @@ const storyConfig = {
       "image": null,
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061976",
+      "legend": "./images/elevation-legend.svg?v=1792135574",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -165,11 +193,11 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "[Placeholder] Bengaluru sits on a ridge. The old city — Majestic, Fort, Palace, Jayanagar — lies on high ground between 900 and 940 m, while the land falls away to the valleys at Bellandur, Varthur and Kengeri, where the city's rainwater collects.",
+      "description": "You can see a gradient of colour applied to the satellite image. Reds show high terrain, and gradients of yellow, green and blue show subsequently lower elevations. The points mark the altitude of some areas of the city.\n\nWhat is the highest point of the city? Clue: the area has the word ‘high’ in its name.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "3",
+      "id": "4",
       "chapterType": "map",
       "title": "Hills & Valleys",
       "center": [
@@ -218,20 +246,20 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/bengaluru-3d-dem.webp?v=1792061976"
+          "src": "./images/bengaluru-3d-dem.webp?v=1792135574"
         },
         {
-          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792061976",
+          "src": "./images/cross-section-mangaluru-chennai.webp?v=1792135574",
           "caption": "Cross section: Mangaluru – Bengaluru – Chennai. Raj Bhagat P (@rajbhagatt), data: SRTM"
         }
       ]
     },
     {
       "year": null,
-      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792061976",
+      "image": "./images/bengaluru-3d-dem-ridge.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061976",
+      "legend": "./images/elevation-legend.svg?v=1792135574",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -240,11 +268,11 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "[Placeholder] Text for the ridge chapter.",
+      "description": "The ridge line of the Deccan Plateau runs through the city. The marked areas — HMT Estate, the Indian Institute of Science, Bangalore Palace, High Grounds, Basavangudi and JP Nagar — lie along it.\n\nWhat does a ridge line mean? Water on either side of the ridge line flows away from each other.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "4",
+      "id": "5",
       "chapterType": "map",
       "title": "The Ridge",
       "center": [
@@ -305,7 +333,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-dem.webp?v=1792061976",
+      "image": "./images/deccan-plateau-dem.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -321,7 +349,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "5",
+      "id": "6",
       "chapterType": "image",
       "title": "The Deccan Plateau",
       "center": [
@@ -333,7 +361,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/deccan-plateau-bengaluru.webp?v=1792061976",
+      "image": "./images/deccan-plateau-bengaluru.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -345,11 +373,11 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "[Placeholder] Text for the Bengaluru on the plateau image.",
+      "description": "Let’s locate the city.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "6",
+      "id": "7",
       "chapterType": "image",
       "title": "Bengaluru on the Plateau",
       "center": [
@@ -361,7 +389,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/cauvery-basin.webp?v=1792061976",
+      "image": "./images/cauvery-basin.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -377,7 +405,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "7",
+      "id": "8",
       "chapterType": "image",
       "title": "The Cauvery Basin",
       "center": [
@@ -389,7 +417,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/three-basins.webp?v=1792061976",
+      "image": "./images/three-basins.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -401,13 +429,13 @@ const storyConfig = {
       "subtitle2": null,
       "buttonText": null,
       "population": null,
-      "description": "[Placeholder] Text for the river basins image.",
+      "description": "The city drains into two large watersheds – the Cauvery, and the Pennar or the Dakshina Pinakini.",
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "8",
+      "id": "9",
       "chapterType": "image",
-      "title": "Three River Basins",
+      "title": "Two Watersheds",
       "center": [
         77.6,
         12.98
@@ -433,7 +461,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "9",
+      "id": "10",
       "chapterType": "title",
       "title": "INHABITING THE FLOW",
       "center": [
@@ -445,10 +473,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/undulating-terrain.webp?v=1792061976",
+      "image": "./images/undulating-terrain.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061976",
+      "legend": "./images/elevation-legend.svg?v=1792135574",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -461,7 +489,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "10",
+      "id": "11",
       "chapterType": "map",
       "title": "Undulating Terrain",
       "center": [
@@ -519,10 +547,10 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/water-collection.webp?v=1792061976",
+      "image": "./images/water-collection.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
-      "legend": "./images/elevation-legend.svg?v=1792061976",
+      "legend": "./images/elevation-legend.svg?v=1792135574",
       "bearing": 0,
       "duration": 2000,
       "subtitle": null,
@@ -535,7 +563,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "11",
+      "id": "12",
       "chapterType": "map",
       "title": "Water Collection",
       "center": [
@@ -637,7 +665,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "12",
+      "id": "13",
       "chapterType": "map",
       "title": "Koramangala–Challaghatta Valley",
       "center": [
@@ -731,7 +759,7 @@ const storyConfig = {
     },
     {
       "year": null,
-      "image": "./images/bunds.webp?v=1792061976",
+      "image": "./images/bunds.webp?v=1792135574",
       "pitch": 0,
       "quote": null,
       "legend": null,
@@ -747,7 +775,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "13",
+      "id": "14",
       "chapterType": "map",
       "title": "Bunds",
       "center": [
@@ -863,7 +891,7 @@ const storyConfig = {
       "quoteSource": null,
       "imageCaption": null,
       "descriptionSource": null,
-      "id": "14",
+      "id": "15",
       "chapterType": "map",
       "title": "Origin of Bangalore Tanks",
       "center": [
@@ -973,11 +1001,11 @@ const storyConfig = {
       },
       "images": [
         {
-          "src": "./images/inscription-stones-photo.webp?v=1792061976",
+          "src": "./images/inscription-stones-photo.webp?v=1792135574",
           "caption": "Photos: Harini Nagendra and Hita Unnikrishnan"
         },
         {
-          "src": "./images/vibhutipura-inscription.webp?v=1792061976",
+          "src": "./images/vibhutipura-inscription.webp?v=1792135574",
           "caption": "Source: Inscription Stones of Bangalore; BL Rice, Epigraphia Carnatica, Vol IX"
         }
       ]
